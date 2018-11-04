@@ -1,0 +1,10 @@
+*~
+.eggs
+.gdb_history
+*.egg-info
+*.so
+*.pyc
+__pycache__
+_native*
+build/
+target/
