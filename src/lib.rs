@@ -3,6 +3,7 @@ extern crate rand;
 
 mod names;
 use rand::Rng;
+use rand::distributions::{Normal, Distribution};
 
 pub struct Event {
     agent: usize,
@@ -31,12 +32,62 @@ enum Sex {
     Female,
 }
 
+struct Health {
+    chronic: f64,
+    acute: f64,
+    pain: f64,
+    hunger: f64,
+    alive: bool,
+}
+
+impl Health {
+    fn new() -> Health {
+        let mut rng = rand::thread_rng();
+        Health {
+            chronic: Normal::new(0.75, 0.01).sample(&mut rng).min(1.0).max(0.0),
+            acute: 1.0,
+            pain: 0.0,
+            hunger: Normal::new(0.5, 0.01).sample(&mut rng).min(1.0).max(0.0),
+            alive: true,
+        }
+    }
+
+    fn step(&mut self) {
+        if self.hunger == 1.0 {
+            self.acute -= 0.01;
+        }
+
+        if self.acute < 1.0 {
+            self.pain += 0.01;
+        } else {
+            self.pain -= 0.1;
+        }
+        
+        if self.acute < 0.2 {
+            self.chronic -= 0.01;
+        }
+
+        if self.acute <= 0.0 || self.chronic <= 0.0 {
+            self.alive = false;
+        }
+
+        self.hunger += 0.01;
+        self.acute += 0.001;
+    
+        self.chronic = self.chronic.min(1.0).max(0.0);
+        self.acute = self.acute.min(1.0).max(0.0);
+        self.pain = self.pain.min(1.0).max(0.0);
+        self.hunger = self.hunger.min(1.0).max(0.0);
+    }
+}
+
 pub struct Agent {
-    name: String,
+    pub name: String,
     events: Vec<Event>,
     age: f64,
     sex: Sex,
     location: usize,
+    health: Health,
 
     action_points: i32,
 }
@@ -54,12 +105,12 @@ impl Agent {
 
         let full_name = format!("{} {}", first_name, surname).to_string();
 
-        Agent { events: Vec::new(), name: full_name, age: age, sex: sex, location: 0, action_points: 0, }
+        Agent { events: Vec::new(), name: full_name, age: age, sex: sex, location: 0, health: Health::new(), action_points: 0, }
     }
 }
 
 pub struct World {
-    agents: Vec<Agent>,
+    pub agents: Vec<Agent>,
     locations: Vec<Location>,
     pub time: f64,
 
@@ -106,7 +157,7 @@ impl World {
 
     pub fn show_events(&self, agent: usize) {
         for event in &self.agents[agent].events {
-            println!("{}: ({}, {}) {}", event.time, self.agents[event.agent].name, self.locations[event.location].name, event.desc);
+            println!("{}: {} {}", event.time, self.agents[event.agent].name, event.desc);
         }
     }
 
@@ -115,25 +166,36 @@ impl World {
         self.rng.shuffle(&mut index);
         for i in index {
             let a = &mut self.agents[i];
-            a.age += 1.0;
-            a.action_points += 1;
-            if a.action_points > 5 {
-                let new_location;
-                {
-                    let place = &self.locations[a.location];
-                    if place.exits.is_empty() { continue; }
-                    let exit = self.rng.gen_range(0, place.exits.len());
-                    new_location = self.locations[a.location].exits[exit];
+            if a.health.alive {
+                a.health.step();
+                if !a.health.alive {
+                    a.events.push( Event { location: a.location,
+                                           agent: i,
+                                           time: self.time,
+                                           desc: "Died".to_string(),
+                    } );
+                    break
                 }
-                self.locations[a.location].agents.remove_item(&i);
-                self.locations[new_location].agents.push(i);
-                a.events.push( Event { location: a.location,
-                                       agent: i,
-                                       time: self.time,
-                                       desc: format!("Moved from {} to {}", a.location, new_location),
-                } );
-                a.location = new_location;
-                a.action_points -= 5;
+                a.age += 1.0;
+                a.action_points += 1;
+                if a.action_points > 5 {
+                    let new_location;
+                    {
+                        let place = &self.locations[a.location];
+                        if place.exits.is_empty() { continue; }
+                        let exit = self.rng.gen_range(0, place.exits.len());
+                        new_location = self.locations[a.location].exits[exit];
+                    }
+                    self.locations[a.location].agents.remove_item(&i);
+                    self.locations[new_location].agents.push(i);
+                    a.events.push( Event { location: a.location,
+                                           agent: i,
+                                           time: self.time,
+                                           desc: format!("Moved from {} to {}", a.location, new_location),
+                    } );
+                    a.location = new_location;
+                    a.action_points -= 5;
+                }
             }
         }
         self.time += 1.0;
