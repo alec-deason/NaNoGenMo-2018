@@ -1,6 +1,7 @@
 #![feature(vec_remove_item)]
 extern crate rand;
 
+mod names;
 use rand::Rng;
 
 pub struct Event {
@@ -24,10 +25,17 @@ impl Location {
     }
 }
 
+#[derive(Copy, Clone)]
+enum Sex {
+    Male,
+    Female,
+}
+
 pub struct Agent {
-    name: &'static str,
+    name: String,
     events: Vec<Event>,
     age: f64,
+    sex: Sex,
     location: usize,
 
     action_points: i32,
@@ -35,7 +43,18 @@ pub struct Agent {
 
 impl Agent {
     pub fn new() -> Agent {
-        Agent { events: Vec::new(), name: &"Joe Shmo", age: rand::thread_rng().gen_range(0.0, 120.0), location: 0, action_points: 0, }
+        let mut rng = rand::thread_rng();
+        let sex = *rng.choose(&[Sex::Male, Sex::Female]).unwrap();
+        let age = rng.gen_range(0.0, 120.0);
+        let first_name = match sex {
+            Sex::Male => rng.choose(names::MALE_FIRST_NAMES).unwrap(),
+            Sex::Female => rng.choose(names::FEMALE_FIRST_NAMES).unwrap(),
+        };
+        let surname = rng.choose(names::SURNAMES).unwrap();
+
+        let full_name = format!("{} {}", first_name, surname).to_string();
+
+        Agent { events: Vec::new(), name: full_name, age: age, sex: sex, location: 0, action_points: 0, }
     }
 }
 
@@ -87,7 +106,7 @@ impl World {
 
     pub fn show_events(&self, agent: usize) {
         for event in &self.agents[agent].events {
-            println!("{}: ({}) {}", event.time, self.locations[event.location].name, event.desc);
+            println!("{}: ({}, {}) {}", event.time, self.agents[event.agent].name, self.locations[event.location].name, event.desc);
         }
     }
 
