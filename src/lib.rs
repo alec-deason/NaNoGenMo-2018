@@ -47,7 +47,14 @@ impl World {
             let loc = w.locations[idx].clone();
             let a = Rc::new(RefCell::new(Agent::new(id, loc.clone())));
             loc.agents.borrow_mut().push(a.clone());
-            w.agents.push(a.clone());
+            w.agents.push(a);
+        }
+
+        for _ in 0..10000 {
+            let idx = rng.gen_range(0, loc_count);
+            let loc = w.locations[idx].clone();
+            let item = Rc::new(Item::new(loc.clone()));
+            loc.items.borrow_mut().push(item);
         }
 
         w
@@ -177,6 +184,54 @@ impl Agent {
 
         self.action_points += 1;
 
+        if self.action_points >= 1 && self.health.hunger > 0.3 {
+            let mut food = Vec::new();
+            for i in self.location.items.borrow().iter() {
+                if i.food_value > 0.0 {
+                    food.push(i.clone());
+                }
+            }
+
+            let thing_to_eat = food.choose(&mut rng);
+
+            match thing_to_eat {
+                Some(thing_to_eat) => {
+                    self.health.hunger = (self.health.hunger - thing_to_eat.food_value).max(0.0);
+                    self.location.items.borrow_mut().remove_item(thing_to_eat);
+                    self.events.push(Event { msg: format!("Ate {}", thing_to_eat.name).to_string() });
+                },
+                None => (), // Nothing to eat :(
+            }
+        }
+
+        if self.action_points >= 2 {
+            let mut people_i_care_about = Vec::new();
+            for a in self.location.agents.borrow().iter() {
+                match a.try_borrow() {
+                    Ok(aa) => {
+                        if self.mind.opinions_on_others[aa.id].abs() > 0.4 {
+                            people_i_care_about.push(a.clone());
+                        }
+                    },
+                    Err(_) => () // This is the current agent, fine.
+                }
+            }
+            let who_should_i_talk_to = people_i_care_about.choose(&mut rng);
+            match who_should_i_talk_to {
+                Some(interlocular) => {
+                    self.action_points -= 2;
+                    if self.mind.opinions_on_others[interlocular.borrow().id] > 0.0 {
+                        self.events.push(Event { msg: format!("Had a nice conversation with {}", interlocular.borrow().name).to_string() });
+                        self.mind.opinions_on_others[interlocular.borrow().id] += 0.01
+                    } else {
+                        self.events.push(Event { msg: format!("Had a fight with {}", interlocular.borrow().name).to_string() });
+                        self.mind.opinions_on_others[interlocular.borrow().id] -= 0.01
+                    }
+                },
+                None => () // Nobody I care about around
+            };
+        }
+
         if self.action_points >= 5 {
             self.action_points -= 5;
             let mut rng = rand::thread_rng();
@@ -186,26 +241,6 @@ impl Agent {
             let new_location = exits[idx].clone();
             self.events.push(Event { msg: format!("Moved from {} to {}", self.location.id, new_location.id).to_string() });
             self.location = new_location;
-        } else if self.action_points >= 2 {
-            let mut assholes = Vec::new();
-            for a in self.location.agents.borrow().iter() {
-                match a.try_borrow() {
-                    Ok(aa) => {
-                        if self.mind.opinions_on_others[aa.id] < 0.0 {
-                            assholes.push(a.clone());
-                        }
-                    },
-                    Err(_) => () // This is the current agent, fine.
-                }
-            }
-            let least_favorite_asshole = assholes.choose(&mut rng);
-            match least_favorite_asshole {
-                Some(asshole) => {
-                    self.action_points -= 2;
-                    self.events.push(Event { msg: format!("Had a fight with {}", asshole.borrow().name).to_string() });
-                },
-                None => () // No assholes around
-            };
         }
     }
 }
@@ -273,22 +308,28 @@ impl Health {
 
 struct Mind {
     opinions_on_others: Vec<f64>,
+    preconceptions: Vec<f64>,
 }
 
 impl Mind {
     fn new() -> Mind {
         Mind {
-            opinions_on_others: Vec::new(),
+            opinions_on_others: Vec::with_capacity(1000),
+            preconceptions: Vec::with_capacity(1000),
         }
     }
 
     fn step_simulation(&mut self, view: MindView) {
+        let mut rng = rand::thread_rng();
         let d_opinion = -view.health.pain + 0.5;
         for a in view.location.agents.borrow().iter() {
             match a.try_borrow() {
                 Ok(a) => {
-                    while self.opinions_on_others.len() <= a.id { self.opinions_on_others.push(0.0) }
-                    self.opinions_on_others[a.id] += d_opinion;
+                    while self.opinions_on_others.len() <= a.id {
+                        self.preconceptions.push(rng.gen_range(-0.1, 0.1));
+                        self.opinions_on_others.push(0.0)
+                    }
+                    self.opinions_on_others[a.id] += d_opinion + self.preconceptions[a.id];
                 },
                 Err(_) => () // This is the current agent, fine.
             }
@@ -300,6 +341,7 @@ struct Location {
     id: usize,
     exits: RefCell<Vec<Rc<Location>>>,
     agents: RefCell<Vec<Rc<RefCell<Agent>>>>,
+    items: RefCell<Vec<Rc<Item>>>,
 }
 
 
@@ -308,12 +350,36 @@ impl PartialEq for Location {
         self.id == other.id
     }
 }
+
 impl Location {
     fn new(id: usize) -> Location {
         Location {
             id: id,
             exits: RefCell::new(Vec::new()),
             agents: RefCell::new(Vec::new()),
+            items: RefCell::new(Vec::new()),
+        }
+    }
+}
+
+struct Item {
+    name: String,
+    food_value: f64,
+    location: Rc<Location>,
+}
+
+impl PartialEq for Item {
+    fn eq(&self, other: &Item) -> bool {
+        self as *const _ == other as *const _
+    }
+}
+
+impl Item {
+    fn new(location: Rc<Location>) -> Item {
+        Item {
+            name: "Food".to_string(),
+            food_value: 1.0,
+            location: location,
         }
     }
 }
