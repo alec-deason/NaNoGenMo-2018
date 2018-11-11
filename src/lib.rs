@@ -20,9 +20,10 @@ pub struct World {
 
 impl World {
     pub fn new() -> World {
+        let world_scale = 10;
         let mut rng = rand::thread_rng();
 
-        let locations: Vec<Rc<Location>> = (0..10000).into_iter()
+        let locations: Vec<Rc<Location>> = (0..(10*world_scale)).into_iter()
             .map(|id| Rc::new(Location::new(id)))
             .collect();
 
@@ -42,7 +43,7 @@ impl World {
             }
         }
 
-        for id in 0..1000 {
+        for id in 0..world_scale {
             let idx = rng.gen_range(0, loc_count);
             let loc = w.locations[idx].clone();
             let a = Rc::new(RefCell::new(Agent::new(id, loc.clone())));
@@ -50,7 +51,7 @@ impl World {
             w.agents.push(a);
         }
 
-        for _ in 0..10000 {
+        for _ in 0..(30*world_scale) {
             let idx = rng.gen_range(0, loc_count);
             let loc = w.locations[idx].clone();
             let item = Rc::new(Item::new(loc.clone()));
@@ -199,12 +200,13 @@ impl Agent {
                     self.health.hunger = (self.health.hunger - thing_to_eat.food_value).max(0.0);
                     self.location.items.borrow_mut().remove_item(thing_to_eat);
                     self.events.push(Event { msg: format!("Ate {}", thing_to_eat.name).to_string() });
+                    self.mind.cheer = (self.mind.cheer + 0.5).min(1.0);
                 },
-                None => (), // Nothing to eat :(
+                None => self.mind.cheer = (self.mind.cheer - 0.05).max(0.0), // Nothing to eat :(
             }
         }
 
-        if self.action_points >= 2 {
+        if self.action_points >= 2 && self.health.hunger < 0.7 {
             let mut people_i_care_about = Vec::new();
             for a in self.location.agents.borrow().iter() {
                 match a.try_borrow() {
@@ -220,12 +222,15 @@ impl Agent {
             match who_should_i_talk_to {
                 Some(interlocular) => {
                     self.action_points -= 2;
-                    if self.mind.opinions_on_others[interlocular.borrow().id] > 0.0 {
-                        self.events.push(Event { msg: format!("Had a nice conversation with {}", interlocular.borrow().name).to_string() });
-                        self.mind.opinions_on_others[interlocular.borrow().id] += 0.01
+                    let mut interlocular = interlocular.borrow_mut();
+                    if self.mind.opinions_on_others[interlocular.id] > 0.0 {
+                        self.events.push(Event { msg: format!("Had a nice conversation with {}", interlocular.name).to_string() });
+                        self.mind.cheer = (self.mind.cheer + 0.1).min(1.0);
+                        interlocular.mind.cheer = (interlocular.mind.cheer + 0.1).min(1.0);
                     } else {
-                        self.events.push(Event { msg: format!("Had a fight with {}", interlocular.borrow().name).to_string() });
-                        self.mind.opinions_on_others[interlocular.borrow().id] -= 0.01
+                        self.events.push(Event { msg: format!("Had a fight with {}", interlocular.name).to_string() });
+                        self.mind.cheer = (self.mind.cheer - 0.1).max(0.0);
+                        interlocular.mind.cheer = (interlocular.mind.cheer - 0.1).min(0.0);
                     }
                 },
                 None => () // Nobody I care about around
@@ -237,8 +242,7 @@ impl Agent {
             let mut rng = rand::thread_rng();
             let loc = self.location.clone();
             let exits = loc.exits.borrow();
-            let idx = rng.gen_range(0, exits.len());
-            let new_location = exits[idx].clone();
+            let new_location = exits.choose_weighted(&mut rng, |loc| *self.mind.opinions_on_places.get(loc.id).  unwrap_or(&0.0) + 10000.0).unwrap().clone();
             self.events.push(Event { msg: format!("Moved from {} to {}", self.location.id, new_location.id).to_string() });
             self.location = new_location;
         }
@@ -307,21 +311,32 @@ impl Health {
 }
 
 struct Mind {
+    cheer: f64,
+    disposition: f64,
     opinions_on_others: Vec<f64>,
     preconceptions: Vec<f64>,
+    opinions_on_places: Vec<f64>,
 }
 
 impl Mind {
     fn new() -> Mind {
+        let mut rng = rand::thread_rng();
+        let disposition = rng.gen_range(0.0, 1.0);
         Mind {
+            cheer: disposition,
+            disposition: disposition,
             opinions_on_others: Vec::with_capacity(1000),
             preconceptions: Vec::with_capacity(1000),
+            opinions_on_places: Vec::with_capacity(1000),
         }
     }
 
     fn step_simulation(&mut self, view: MindView) {
         let mut rng = rand::thread_rng();
-        let d_opinion = -view.health.pain + 0.5;
+        // Current cheer level tends to drift back towards overall disposition
+        self.cheer += -0.001*(self.cheer-self.disposition);
+
+        let d_opinion = -view.health.pain + 0.5 + self.cheer;
         for a in view.location.agents.borrow().iter() {
             match a.try_borrow() {
                 Ok(a) => {
@@ -334,6 +349,12 @@ impl Mind {
                 Err(_) => () // This is the current agent, fine.
             }
         }
+
+        
+        while self.opinions_on_places.len() <= view.location.id {
+            self.opinions_on_places.push(rng.gen_range(-0.001, 0.001));
+        }
+        self.opinions_on_places[view.location.id] += d_opinion;
     }
 }
 
