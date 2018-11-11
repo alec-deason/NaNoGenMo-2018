@@ -3,6 +3,7 @@ extern crate rand;
 
 mod names;
 
+use rand::prelude::SliceRandom;
 use std::fmt;
 use rand::Rng;
 use std::rc::Rc;
@@ -128,17 +129,17 @@ impl fmt::Display for Agent {
 impl Agent {
     fn new(id: usize, location: Rc<Location>) -> Agent {
         let mut rng = rand::thread_rng();
-        let sex = *rng.choose(&[Sex::Male, Sex::Female]).unwrap();
+        let sex = *[Sex::Male, Sex::Female].choose(&mut rng).unwrap();
         //TODO Normal isn't the right distribution for this
         let age = match sex {
             Sex::Female => Normal::new(38.1, 10.0).sample(&mut rng).min(120.0).max(0.0),
             Sex::Male => Normal::new(36.8, 10.0).sample(&mut rng).min(120.0).max(0.0),
         };
         let first_name = match sex {
-            Sex::Male => rng.choose(names::MALE_FIRST_NAMES).unwrap(),
-            Sex::Female => rng.choose(names::FEMALE_FIRST_NAMES).unwrap(),
+            Sex::Male => names::MALE_FIRST_NAMES.choose(&mut rng).unwrap(),
+            Sex::Female => names::FEMALE_FIRST_NAMES.choose(&mut rng).unwrap(),
         };
-        let surname = rng.choose(names::SURNAMES).unwrap();
+        let surname = names::SURNAMES.choose(&mut rng).unwrap();
 
         let full_name = format!("{} {}", first_name, surname).to_string();
 
@@ -160,6 +161,7 @@ impl Agent {
     }
 
     fn step_simulation(&mut self) {
+        let mut rng = rand::thread_rng();
         let view = HealthView { mind: &self.mind, location: self.location.clone() };
         self.health.step_simulation(view);
 
@@ -184,6 +186,26 @@ impl Agent {
             let new_location = exits[idx].clone();
             self.events.push(Event { msg: format!("Moved from {} to {}", self.location.id, new_location.id).to_string() });
             self.location = new_location;
+        } else if self.action_points >= 2 {
+            let mut assholes = Vec::new();
+            for a in self.location.agents.borrow().iter() {
+                match a.try_borrow() {
+                    Ok(aa) => {
+                        if self.mind.opinions_on_others[aa.id] < 0.0 {
+                            assholes.push(a.clone());
+                        }
+                    },
+                    Err(_) => () // This is the current agent, fine.
+                }
+            }
+            let least_favorite_asshole = assholes.choose(&mut rng);
+            match least_favorite_asshole {
+                Some(asshole) => {
+                    self.action_points -= 2;
+                    self.events.push(Event { msg: format!("Had a fight with {}", asshole.borrow().name).to_string() });
+                },
+                None => () // No assholes around
+            };
         }
     }
 }
@@ -250,22 +272,23 @@ impl Health {
 }
 
 struct Mind {
-    encounters: Vec<u32>,
+    opinions_on_others: Vec<f64>,
 }
 
 impl Mind {
     fn new() -> Mind {
         Mind {
-            encounters: Vec::new(),
+            opinions_on_others: Vec::new(),
         }
     }
 
     fn step_simulation(&mut self, view: MindView) {
+        let d_opinion = -view.health.pain + 0.5;
         for a in view.location.agents.borrow().iter() {
             match a.try_borrow() {
                 Ok(a) => {
-                    while self.encounters.len() <= a.id { self.encounters.push(0) }
-                    self.encounters[a.id] += 1;
+                    while self.opinions_on_others.len() <= a.id { self.opinions_on_others.push(0.0) }
+                    self.opinions_on_others[a.id] += d_opinion;
                 },
                 Err(_) => () // This is the current agent, fine.
             }
