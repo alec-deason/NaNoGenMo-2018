@@ -1,0 +1,1436 @@
+Events for: (Susan Brown, Female, 32.455709689794865)
+Agent created
+Ate Food
+Moved from 39 to 30
+Moved from 30 to 20
+Moved from 20 to 95
+Moved from 95 to 1
+Moved from 1 to 73
+Moved from 73 to 71
+Ate Food
+Moved from 71 to 92
+Had a neutral conversation about a person with Susan Hall (initiated by them)
+Had a neutral conversation about a person with Susan Hall (initiated by them)
+Moved from 92 to 53
+Moved from 53 to 81
+Moved from 81 to 97
+Moved from 97 to 52
+Moved from 52 to 77
+Ate Food
+Moved from 77 to 26
+Moved from 26 to 64
+Moved from 64 to 79
+Moved from 79 to 65
+Moved from 65 to 70
+Moved from 70 to 25
+Ate Food
+Had a neutral conversation about a person with Sebastián Lee (initiated by them)
+Had a neutral conversation about a person with Sebastián Lee (initiated by them)
+Had a neutral conversation about a person with Sebastián Lee (initiated by me)
+Had a neutral conversation about a person with Sebastián Lee (initiated by me)
+Had a neutral conversation about a person with Sebastián Lee (initiated by them)
+Had a neutral conversation about a person with Sebastián Lee (initiated by me)
+Had a neutral conversation about a person with Sebastián Lee (initiated by me)
+Had a neutral conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a neutral conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a neutral conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Ate Food
+Had a neutral conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a neutral conversation about a person with Nicolás Taylor (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Moved from 25 to 21
+Ate Food
+Moved from 21 to 27
+Moved from 27 to 78
+Moved from 78 to 22
+Moved from 22 to 61
+Moved from 61 to 90
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Ate Food
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Ate Food
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Moved from 90 to 57
+Ate Food
+Moved from 57 to 73
+Moved from 73 to 71
+Moved from 71 to 92
+Moved from 92 to 38
+Moved from 38 to 47
+Moved from 47 to 36
+Ate Food
+Moved from 36 to 84
+Moved from 84 to 39
+Moved from 39 to 30
+Moved from 30 to 20
+Moved from 20 to 95
+Moved from 95 to 1
+Ate Food
+Moved from 1 to 27
+Moved from 27 to 57
+Moved from 57 to 75
+Moved from 75 to 25
+Moved from 25 to 19
+Moved from 19 to 72
+Ate Food
+Moved from 72 to 78
+Moved from 78 to 30
+Moved from 30 to 20
+Moved from 20 to 95
+Moved from 95 to 97
+Moved from 97 to 52
+Ate Food
+Moved from 52 to 77
+Moved from 77 to 8
+Moved from 8 to 56
+Moved from 56 to 72
+Moved from 72 to 10
+Moved from 10 to 0
+Ate Food
+Moved from 0 to 72
+Moved from 72 to 42
+Moved from 42 to 78
+Moved from 78 to 22
+Moved from 22 to 7
+Moved from 7 to 59
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a neutral conversation about a person with Maria Perez (initiated by me)
+Had a neutral conversation about a person with Maria Perez (initiated by them)
+Had a neutral conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a neutral conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a neutral conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Moved from 59 to 12
+Ate Food
+Moved from 12 to 2
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a neutral conversation about a person with Oliver Lee (initiated by me)
+Had a neutral conversation about a person with Oliver Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Oliver Lee (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Moved from 2 to 82
+Ate Food
+Moved from 82 to 67
+Moved from 67 to 8
+Moved from 8 to 56
+Moved from 56 to 97
+Moved from 97 to 52
+Moved from 52 to 87
+Moved from 87 to 61
+Ate Food
+Moved from 61 to 43
+Moved from 43 to 57
+Moved from 57 to 17
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Moved from 17 to 25
+Moved from 25 to 55
+Ate Food
+Moved from 55 to 44
+Moved from 44 to 2
+Moved from 2 to 29
+Moved from 29 to 4
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by me)
+Had a neutral conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Moved from 4 to 28
+Ate Food
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Ate Food
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a neutral conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a neutral conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Moved from 28 to 45
+Moved from 45 to 56
+Moved from 56 to 76
+Moved from 76 to 41
+Moved from 41 to 37
+Ate Food
+Moved from 37 to 69
+Moved from 69 to 87
+Moved from 87 to 86
+Moved from 86 to 2
+Moved from 2 to 65
+Moved from 65 to 70
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Moved from 70 to 25
+Moved from 25 to 55
+Ate Food
+Moved from 55 to 49
+Moved from 49 to 60
+Moved from 60 to 94
+Moved from 94 to 12
+Moved from 12 to 70
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Moved from 70 to 25
+Moved from 25 to 19
+Ate Food
+Moved from 19 to 16
+Moved from 16 to 56
+Moved from 56 to 87
+Moved from 87 to 86
+Moved from 86 to 54
+Moved from 54 to 59
+Moved from 59 to 51
+Moved from 51 to 59
+Moved from 59 to 12
+Ate Food
+Moved from 12 to 70
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a neutral conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a neutral conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Moved from 70 to 49
+Moved from 49 to 60
+Moved from 60 to 94
+Moved from 94 to 12
+Ate Food
+Moved from 12 to 70
+Moved from 70 to 49
+Moved from 49 to 60
+Moved from 60 to 27
+Moved from 27 to 63
+Moved from 63 to 89
+Ate Food
+Moved from 89 to 39
+Moved from 39 to 30
+Moved from 30 to 20
+Moved from 20 to 95
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Moved from 95 to 5
+Moved from 5 to 70
+Moved from 70 to 25
+Moved from 25 to 55
+Moved from 55 to 44
+Moved from 44 to 2
+Moved from 2 to 44
+Moved from 44 to 2
+Moved from 2 to 81
+Ate Food
+Moved from 81 to 24
+Moved from 24 to 29
+Moved from 29 to 10
+Moved from 10 to 73
+Moved from 73 to 71
+Moved from 71 to 22
+Ate Food
+Moved from 22 to 2
+Moved from 2 to 44
+Moved from 44 to 2
+Moved from 2 to 82
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Moved from 82 to 9
+Moved from 9 to 43
+Ate Food
+Moved from 43 to 57
+Moved from 57 to 92
+Moved from 92 to 27
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Dorothy Clark (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Moved from 27 to 57
+Moved from 57 to 92
+Moved from 92 to 25
+Moved from 25 to 45
+Moved from 45 to 19
+Ate Food
+Moved from 19 to 72
+Moved from 72 to 97
+Moved from 97 to 50
+Moved from 50 to 65
+Moved from 65 to 70
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Moved from 70 to 49
+Moved from 49 to 60
+Moved from 60 to 94
+Moved from 94 to 12
+Moved from 12 to 2
+Moved from 2 to 29
+Moved from 29 to 50
+Moved from 50 to 53
+Ate Food
+Moved from 53 to 81
+Moved from 81 to 97
+Moved from 97 to 52
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Moved from 52 to 77
+Moved from 77 to 7
+Moved from 7 to 59
+Moved from 59 to 4
+Moved from 4 to 88
+Ate Food
+Moved from 88 to 7
+Moved from 7 to 59
+Moved from 59 to 4
+Moved from 4 to 82
+Moved from 82 to 67
+Moved from 67 to 43
+Moved from 43 to 28
+Moved from 28 to 50
+Moved from 50 to 23
+Moved from 23 to 71
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by me)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Had a nice conversation about a person with Oliver Lee (initiated by them)
+Moved from 71 to 92
+Moved from 92 to 36
+Moved from 36 to 14
+Moved from 14 to 36
+Moved from 36 to 14
+Moved from 14 to 36
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Moved from 36 to 84
+Ate Food
+Moved from 84 to 39
+Moved from 39 to 30
+Moved from 30 to 10
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by me)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Had a angry conversation about a person with Jennifer Jackson (initiated by them)
+Moved from 10 to 96
+Moved from 96 to 78
+Moved from 78 to 50
+Moved from 50 to 65
+Ate Food
+Moved from 65 to 98
+Moved from 98 to 33
+Moved from 33 to 26
+Moved from 26 to 64
+Moved from 64 to 56
+Moved from 56 to 97
+Moved from 97 to 52
+Moved from 52 to 77
+Moved from 77 to 86
+Moved from 86 to 54
+Ate Food
+Moved from 54 to 64
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Nicolás Taylor (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by them)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with Mary Harris (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by me)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Had a nice conversation about a person with David Martinez (initiated by them)
+Moved from 64 to 3
+Moved from 3 to 32
+Ate Food
+Moved from 32 to 6
+Moved from 6 to 17
+Moved from 17 to 25
+Moved from 25 to 2
+Moved from 2 to 88
+Moved from 88 to 7
+Moved from 7 to 59
+Moved from 59 to 4
+Moved from 4 to 88
+Ate Food
+Moved from 88 to 7
+Moved from 7 to 59
+Moved from 59 to 12
+Moved from 12 to 49
+Moved from 49 to 60
+Moved from 60 to 94
+Moved from 94 to 14
+Moved from 14 to 12
+Moved from 12 to 2
+Moved from 2 to 93
+Moved from 93 to 46
+Ate Food
+Moved from 46 to 84
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Ate Food
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Ate Food
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by me)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Had a nice conversation about a person with Maria Perez (initiated by them)
+Moved from 84 to 39
+Moved from 39 to 30
+Moved from 30 to 20
+Moved from 20 to 95
+Moved from 95 to 75
+Moved from 75 to 34
+Ate Food
+Moved from 34 to 56
+Moved from 56 to 97
+Moved from 97 to 52
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by them)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Had a nice conversation about a person with Sebastián Lee (initiated by me)
+Moved from 52 to 77
+Moved from 77 to 89
+Moved from 89 to 98
+Moved from 98 to 33
+Moved from 33 to 27
+Moved from 27 to 78
+Moved from 78 to 81
+Moved from 81 to 8
+Moved from 8 to 56
+Moved from 56 to 87
+Moved from 87 to 61
+Moved from 61 to 36
+Moved from 36 to 14
+Moved from 14 to 45
+Moved from 45 to 56
+Moved from 56 to 97
+Moved from 97 to 52
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Had a nice conversation about a person with Susan Hall (initiated by them)
+Moved from 52 to 77
+Moved from 77 to 26
+Moved from 26 to 64
+Moved from 64 to 42
+Moved from 42 to 78
+Moved from 78 to 30
+Moved from 30 to 10
+Moved from 10 to 0
+Moved from 0 to 41
+Moved from 41 to 37
+Moved from 37 to 75
+Moved from 75 to 29
+Moved from 29 to 4
+Moved from 4 to 18
+Moved from 18 to 85
+Moved from 85 to 71
+Died

@@ -1,4 +1,5 @@
 *~
+*.dot
 perf.data*
 .eggs
 .gdb_history

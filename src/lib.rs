@@ -15,13 +15,13 @@ const STEP_SIZE: f64 = 1.0/(360.0*24.0);
 
 pub struct World {
     pub time: f64,
-    agents: Vec<Rc<RefCell<Agent>>>,
+    pub agents: Vec<Rc<RefCell<Agent>>>,
     locations: Vec<Rc<Location>>,
 }
 
 impl World {
     pub fn new() -> World {
-        let world_scale = 100;
+        let world_scale = 10;
         let mut rng = rand::thread_rng();
 
         let locations: Vec<Rc<Location>> = (0..(10*world_scale)).into_iter()
@@ -52,7 +52,7 @@ impl World {
             w.agents.push(a);
         }
 
-        for _ in 0..(30*world_scale) {
+        for _ in 0..(50*world_scale) {
             let idx = rng.gen_range(0, loc_count);
             let loc = w.locations[idx].clone();
             let item = Rc::new(Item::new(loc.clone()));
@@ -111,12 +111,12 @@ impl fmt::Display for Sex {
 }
 
 pub struct Agent {
-    id: usize,
-    name: String,
+    pub id: usize,
+    pub name: String,
     sex: Sex,
     age: f64,
-    health: Health,
-    mind: Mind,
+    pub health: Health,
+    pub mind: Mind,
     location: Rc<Location>,
     events: Vec<Event>,
 
@@ -203,7 +203,7 @@ impl Agent {
                     self.events.push(Event { msg: format!("Ate {}", thing_to_eat.name).to_string() });
                     self.mind.cheer = (self.mind.cheer + 0.5).min(1.0);
                 },
-                None => self.mind.cheer = (self.mind.cheer - 0.05).max(0.0), // Nothing to eat :(
+                None => self.mind.cheer = (self.mind.cheer - 0.05).max(-1.0), // Nothing to eat :(
             }
         }
 
@@ -212,8 +212,8 @@ impl Agent {
             for a in self.location.agents.borrow().iter() {
                 match a.try_borrow() {
                     Ok(aa) => {
-                        if self.mind.opinions_on_others[aa.id].abs() > 0.4 &&
-                           a.borrow().health.alive {
+                        if a.borrow().health.alive &&
+                            self.mind.opinions_on_others[aa.id].abs() > 0.4 {
                             people_i_care_about.push(a.clone());
                         }
                     },
@@ -228,8 +228,8 @@ impl Agent {
                     let mut interlocular = interlocular.borrow_mut();
                     self.events.push(Event { msg: format!("Had {} with {} (initiated by me)", conv, interlocular.name).to_string() });
                     interlocular.events.push(Event { msg: format!("Had {} with {} (initiated by them)", conv, self.name).to_string() });
-                    self.mind.cheer = (self.mind.cheer + conv.tone * 0.01).max(0.0).min(1.0);
-                    interlocular.mind.cheer = (interlocular.mind.cheer + conv.tone * 0.01).max(0.0).min(1.0);
+                    self.mind.cheer = (self.mind.cheer + conv.tone * 0.01).max(-1.0).min(1.0);
+                    interlocular.mind.cheer = (interlocular.mind.cheer + conv.tone * 0.01).max(-1.0).min(1.0);
                 },
                 None => () // Nobody I care about around
             };
@@ -257,7 +257,7 @@ struct MindView<'a> {
     location: Rc<Location>,
 }
 
-struct Health {
+pub struct Health {
     chronic: f64,
     acute: f64,
     pain: f64,
@@ -308,10 +308,10 @@ impl Health {
     }
 }
 
-struct Mind {
+pub struct Mind {
     cheer: f64,
     disposition: f64,
-    opinions_on_others: Vec<f64>,
+    pub opinions_on_others: Vec<f64>,
     preconceptions: Vec<f64>,
     opinions_on_places: Vec<f64>,
 }
@@ -319,7 +319,7 @@ struct Mind {
 impl Mind {
     fn new() -> Mind {
         let mut rng = rand::thread_rng();
-        let disposition = rng.gen_range(0.0, 1.0);
+        let disposition = rng.gen_range(-1.0, 1.0);
         Mind {
             cheer: disposition,
             disposition: disposition,
@@ -333,16 +333,19 @@ impl Mind {
         let mut rng = rand::thread_rng();
         // Current cheer level tends to drift back towards overall disposition
         self.cheer += -0.001*(self.cheer-self.disposition);
+        self.cheer = (self.cheer - view.health.pain * 0.2).min(1.0).max(-1.0);
 
-        let d_opinion = -view.health.pain + 0.5 + (self.cheer - 0.5);
+        let d_opinion = self.cheer*0.1;
         for a in view.location.agents.borrow().iter() {
             match a.try_borrow() {
                 Ok(a) => {
-                    while self.opinions_on_others.len() <= a.id {
-                        self.preconceptions.push(rng.gen_range(-0.1, 0.1));
-                        self.opinions_on_others.push(0.0)
+                    if a.health.alive {
+                        while self.opinions_on_others.len() <= a.id {
+                            self.preconceptions.push(rng.gen_range(-0.1, 0.1));
+                            self.opinions_on_others.push(0.0)
+                        }
+                        self.opinions_on_others[a.id] += d_opinion + self.preconceptions[a.id];
                     }
-                    self.opinions_on_others[a.id] += d_opinion + self.preconceptions[a.id];
                 },
                 Err(_) => () // This is the current agent, fine.
             }
