@@ -2,6 +2,7 @@
 extern crate rand;
 
 mod names;
+mod conversation;
 
 use rand::prelude::SliceRandom;
 use std::fmt;
@@ -20,7 +21,7 @@ pub struct World {
 
 impl World {
     pub fn new() -> World {
-        let world_scale = 10;
+        let world_scale = 100;
         let mut rng = rand::thread_rng();
 
         let locations: Vec<Rc<Location>> = (0..(10*world_scale)).into_iter()
@@ -109,7 +110,7 @@ impl fmt::Display for Sex {
     }
 }
 
-struct Agent {
+pub struct Agent {
     id: usize,
     name: String,
     sex: Sex,
@@ -211,7 +212,8 @@ impl Agent {
             for a in self.location.agents.borrow().iter() {
                 match a.try_borrow() {
                     Ok(aa) => {
-                        if self.mind.opinions_on_others[aa.id].abs() > 0.4 {
+                        if self.mind.opinions_on_others[aa.id].abs() > 0.4 &&
+                           a.borrow().health.alive {
                             people_i_care_about.push(a.clone());
                         }
                     },
@@ -222,16 +224,12 @@ impl Agent {
             match who_should_i_talk_to {
                 Some(interlocular) => {
                     self.action_points -= 2;
+                    let conv = conversation::simulate_conversation(self, &interlocular.borrow());
                     let mut interlocular = interlocular.borrow_mut();
-                    if self.mind.opinions_on_others[interlocular.id] > 0.0 {
-                        self.events.push(Event { msg: format!("Had a nice conversation with {}", interlocular.name).to_string() });
-                        self.mind.cheer = (self.mind.cheer + 0.1).min(1.0);
-                        interlocular.mind.cheer = (interlocular.mind.cheer + 0.1).min(1.0);
-                    } else {
-                        self.events.push(Event { msg: format!("Had a fight with {}", interlocular.name).to_string() });
-                        self.mind.cheer = (self.mind.cheer - 0.1).max(0.0);
-                        interlocular.mind.cheer = (interlocular.mind.cheer - 0.1).min(0.0);
-                    }
+                    self.events.push(Event { msg: format!("Had {} with {} (initiated by me)", conv, interlocular.name).to_string() });
+                    interlocular.events.push(Event { msg: format!("Had {} with {} (initiated by them)", conv, self.name).to_string() });
+                    self.mind.cheer = (self.mind.cheer + conv.tone * 0.01).max(0.0).min(1.0);
+                    interlocular.mind.cheer = (interlocular.mind.cheer + conv.tone * 0.01).max(0.0).min(1.0);
                 },
                 None => () // Nobody I care about around
             };
@@ -336,7 +334,7 @@ impl Mind {
         // Current cheer level tends to drift back towards overall disposition
         self.cheer += -0.001*(self.cheer-self.disposition);
 
-        let d_opinion = -view.health.pain + 0.5 + self.cheer;
+        let d_opinion = -view.health.pain + 0.5 + (self.cheer - 0.5);
         for a in view.location.agents.borrow().iter() {
             match a.try_borrow() {
                 Ok(a) => {
