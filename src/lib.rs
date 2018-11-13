@@ -9,14 +9,16 @@ use std::fmt;
 use rand::Rng;
 use std::rc::Rc;
 use rand::distributions::{Normal, Distribution};
-use std::cell::RefCell;
+use std::cell::{RefCell, Cell};
 
 const STEP_SIZE: f64 = 1.0/(360.0*24.0);
 
 pub struct World {
     pub time: f64,
+    pub agent_time: f64,
     pub agents: Vec<Rc<RefCell<Agent>>>,
-    locations: Vec<Rc<Location>>,
+    living_agents: usize,
+    pub locations: Vec<Rc<Location>>,
 }
 
 impl World {
@@ -30,14 +32,16 @@ impl World {
 
         let mut w = World {
             time: 0.0,
+            agent_time: 0.0,
             agents: Vec::new(),
+            living_agents: 0,
             locations: locations,
         };
 
         let loc_count = w.locations.len();
 
         for loc in &w.locations {
-            for _ in 0..rng.gen_range(1, 10) {
+            for _ in 0..rng.gen_range(1, 3) {
                 let idx = rng.gen_range(0, loc_count);
                 let exit = w.locations[idx].clone();
                 loc.exits.borrow_mut().push(exit);
@@ -50,9 +54,10 @@ impl World {
             let a = Rc::new(RefCell::new(Agent::new(id, loc.clone())));
             loc.agents.borrow_mut().push(a.clone());
             w.agents.push(a);
+            w.living_agents += 1;
         }
 
-        for _ in 0..(50*world_scale) {
+        for _ in 0..(5*world_scale) {
             let idx = rng.gen_range(0, loc_count);
             let loc = w.locations[idx].clone();
             let item = Rc::new(Item::new(loc.clone()));
@@ -63,6 +68,13 @@ impl World {
     }
 
     pub fn step_simulation(&mut self) {
+        let mut rng = rand::thread_rng();
+        for _ in 0..self.living_agents/5 {
+            let loc = self.locations.choose(&mut rng).unwrap();
+            let item = Rc::new(Item::new(loc.clone()));
+            loc.items.borrow_mut().push(item);
+        }
+
         for agent_rc in &self.agents {
             let old_location;
             let new_location;
@@ -70,7 +82,12 @@ impl World {
                 let mut agent = agent_rc.borrow_mut();
                 if !agent.health.alive { continue; };
                 old_location = agent.location.clone();
+                old_location.agent_time.set(old_location.agent_time.get() +STEP_SIZE);
+                self.agent_time += STEP_SIZE;
                 agent.step_simulation();
+                if !agent.health.alive {
+                    self.living_agents -= 1;
+                }
                 new_location = agent.location.clone();
             }
 
@@ -171,7 +188,7 @@ impl Agent {
 
     fn step_simulation(&mut self) {
         let mut rng = rand::thread_rng();
-        let view = HealthView { mind: &self.mind, location: self.location.clone() };
+        let view = HealthView { mind: &self.mind, location: self.location.clone(), events: &mut self.events };
         self.health.step_simulation(view);
 
         if !self.health.alive {
@@ -179,70 +196,83 @@ impl Agent {
             return;
         }
 
-        let view = MindView { health: &self.health, location: self.location.clone() };
+        let view = MindView { health: &self.health, location: self.location.clone(), events: &mut self.events };
         self.mind.step_simulation(view);
 
         self.age += STEP_SIZE;
 
-        self.action_points += 1;
-
-        if self.action_points >= 1 && self.health.hunger > 0.3 {
-            let mut food = Vec::new();
-            for i in self.location.items.borrow().iter() {
-                if i.food_value > 0.0 {
-                    food.push(i.clone());
-                }
-            }
-
-            let thing_to_eat = food.choose(&mut rng);
-
-            match thing_to_eat {
-                Some(thing_to_eat) => {
-                    self.health.hunger = (self.health.hunger - thing_to_eat.food_value).max(0.0);
-                    self.location.items.borrow_mut().remove_item(thing_to_eat);
-                    self.events.push(Event { msg: format!("Ate {}", thing_to_eat.name).to_string() });
-                    self.mind.cheer = (self.mind.cheer + 0.5).min(1.0);
-                },
-                None => self.mind.cheer = (self.mind.cheer - 0.05).max(-1.0), // Nothing to eat :(
-            }
+        
+        if self.health.sleepiness > 16.0 {
+            self.events.push(Event { msg: "Went to sleep".to_string() });
+            self.health.awake = false;
         }
 
-        if self.action_points >= 2 && self.health.hunger < 0.7 {
-            let mut people_i_care_about = Vec::new();
-            for a in self.location.agents.borrow().iter() {
-                match a.try_borrow() {
-                    Ok(aa) => {
-                        if a.borrow().health.alive &&
-                            self.mind.opinions_on_others[aa.id].abs() > 0.4 {
-                            people_i_care_about.push(a.clone());
-                        }
+        if !self.health.awake && self.health.sleepiness <= 0.0 {
+            self.events.push(Event { msg: "Woke up".to_string() });
+            self.health.awake = true;
+        }
+
+        if self.health.awake {
+            self.action_points += 1;
+            if self.action_points >= 1 && self.health.hunger > 0.3 {
+                let mut food = Vec::new();
+                for i in self.location.items.borrow().iter() {
+                    if i.food_value > 0.0 {
+                        food.push(i.clone());
+                    }
+                }
+
+                let thing_to_eat = food.choose(&mut rng);
+
+                match thing_to_eat {
+                    Some(thing_to_eat) => {
+                        self.health.hunger = (self.health.hunger - thing_to_eat.food_value).max(0.0);
+                        self.location.items.borrow_mut().remove_item(thing_to_eat);
+                        self.events.push(Event { msg: format!("Ate {}", thing_to_eat.name).to_string() });
+                        self.mind.cheer = (self.mind.cheer + 0.5).min(1.0);
                     },
-                    Err(_) => () // This is the current agent, fine.
+                    None => self.mind.cheer = (self.mind.cheer - 0.05).max(-1.0), // Nothing to eat :(
                 }
             }
-            let who_should_i_talk_to = people_i_care_about.choose(&mut rng);
-            match who_should_i_talk_to {
-                Some(interlocular) => {
-                    self.action_points -= 2;
-                    let conv = conversation::simulate_conversation(self, &interlocular.borrow());
-                    let mut interlocular = interlocular.borrow_mut();
-                    self.events.push(Event { msg: format!("Had {} with {} (initiated by me)", conv, interlocular.name).to_string() });
-                    interlocular.events.push(Event { msg: format!("Had {} with {} (initiated by them)", conv, self.name).to_string() });
-                    self.mind.cheer = (self.mind.cheer + conv.tone * 0.01).max(-1.0).min(1.0);
-                    interlocular.mind.cheer = (interlocular.mind.cheer + conv.tone * 0.01).max(-1.0).min(1.0);
-                },
-                None => () // Nobody I care about around
-            };
-        }
 
-        if self.action_points >= 5 {
-            self.action_points -= 5;
-            let mut rng = rand::thread_rng();
-            let loc = self.location.clone();
-            let exits = loc.exits.borrow();
-            let new_location = exits.choose_weighted(&mut rng, |loc| *self.mind.opinions_on_places.get(loc.id).  unwrap_or(&0.0) + 10000.0).unwrap().clone();
-            self.events.push(Event { msg: format!("Moved from {} to {}", self.location.id, new_location.id).to_string() });
-            self.location = new_location;
+            if self.action_points >= 2 && self.health.hunger < 0.7 {
+                let mut people_i_care_about = Vec::new();
+                for a in self.location.agents.borrow().iter() {
+                    match a.try_borrow() {
+                        Ok(aa) => {
+                            if a.borrow().health.alive &&
+                               a.borrow().health.awake &&
+                               self.mind.opinions_on_others[aa.id].abs() > 0.4 {
+                                people_i_care_about.push(a.clone());
+                            }
+                        },
+                        Err(_) => () // This is the current agent, fine.
+                    }
+                }
+                let who_should_i_talk_to = people_i_care_about.choose(&mut rng);
+                match who_should_i_talk_to {
+                    Some(interlocular) => {
+                        self.action_points -= 2;
+                        let conv = conversation::simulate_conversation(self, &interlocular.borrow());
+                        let mut interlocular = interlocular.borrow_mut();
+                        self.events.push(Event { msg: format!("Had {} with {} (initiated by me)", conv, interlocular.name).to_string() });
+                        interlocular.events.push(Event { msg: format!("Had {} with {} (initiated by them)", conv, self.name).to_string() });
+                        self.mind.cheer = (self.mind.cheer + conv.tone * 0.01).max(-1.0).min(1.0);
+                        interlocular.mind.cheer = (interlocular.mind.cheer + conv.tone * 0.01).max(-1.0).min(1.0);
+                    },
+                    None => () // Nobody I care about around
+                };
+            }
+
+            if self.action_points >= 5 {
+                self.action_points -= 5;
+                let mut rng = rand::thread_rng();
+                let loc = self.location.clone();
+                let exits = loc.exits.borrow();
+                let new_location = exits.choose_weighted(&mut rng, |loc| *self.mind.opinions_on_places.get(loc.id).  unwrap_or(&0.0) + 10000.0).unwrap().clone();
+                self.events.push(Event { msg: format!("Moved from {} to {}", self.location.id, new_location.id).to_string() });
+                self.location = new_location;
+            }
         }
     }
 }
@@ -250,19 +280,23 @@ impl Agent {
 struct HealthView<'a> {
     mind: &'a Mind,
     location: Rc<Location>,
+    events: &'a mut Vec<Event>,
 }
 
 struct MindView<'a> {
     health: &'a Health,
     location: Rc<Location>,
+    events: &'a mut Vec<Event>,
 }
 
 pub struct Health {
     chronic: f64,
     acute: f64,
     pain: f64,
+    sleepiness: f64,
     hunger: f64,
     alive: bool,
+    awake: bool,
 
 }
 
@@ -273,8 +307,10 @@ impl Health {
             chronic: Normal::new(0.75, 0.01).sample(&mut rng).min(1.0).max(0.0),
             acute: 1.0,
             pain: 0.0,
+            sleepiness: 0.0,
             hunger: Normal::new(0.5, 0.01).sample(&mut rng).min(1.0).max(0.0),
             alive: true,
+            awake: true,
         }
     }
 
@@ -295,6 +331,16 @@ impl Health {
 
         if self.acute <= 0.0 || self.chronic <= 0.0 {
             self.alive = false;
+        }
+
+        if self.awake {
+            self.sleepiness += 1.0;
+        } else {
+            self.sleepiness -= 1.0;
+        }
+
+        if self.sleepiness > 20.0 {
+            self.pain += 0.01;
         }
 
         self.hunger += 0.01;
@@ -335,35 +381,45 @@ impl Mind {
         self.cheer += -0.001*(self.cheer-self.disposition);
         self.cheer = (self.cheer - view.health.pain * 0.2).min(1.0).max(-1.0);
 
-        let d_opinion = self.cheer*0.1;
-        for a in view.location.agents.borrow().iter() {
-            match a.try_borrow() {
-                Ok(a) => {
-                    if a.health.alive {
-                        while self.opinions_on_others.len() <= a.id {
-                            self.preconceptions.push(rng.gen_range(-0.1, 0.1));
-                            self.opinions_on_others.push(0.0)
-                        }
-                        self.opinions_on_others[a.id] += d_opinion + self.preconceptions[a.id];
-                    }
-                },
-                Err(_) => () // This is the current agent, fine.
+        if view.health.awake {
+            if view.health.sleepiness > 16.0 {
+                self.cheer -= 0.1;
             }
-        }
 
-        
-        while self.opinions_on_places.len() <= view.location.id {
-            self.opinions_on_places.push(rng.gen_range(-0.001, 0.001));
+            let d_opinion = self.cheer*0.1;
+            for a in view.location.agents.borrow().iter() {
+                match a.try_borrow() {
+                    Ok(a) => {
+                        if a.health.alive {
+                            while self.opinions_on_others.len() <= a.id {
+                                self.preconceptions.push(rng.gen_range(-0.1, 0.1));
+                                self.opinions_on_others.push(0.0)
+                            }
+                            if self.opinions_on_others[a.id] == 0.0 {
+                                view.events.push(Event { msg: format!("Met {}", a.name).to_string() });
+                            }
+                            self.opinions_on_others[a.id] += d_opinion + self.preconceptions[a.id];
+                        }
+                    },
+                    Err(_) => () // This is the current agent, fine.
+                }
+            }
+
+            
+            while self.opinions_on_places.len() <= view.location.id {
+                self.opinions_on_places.push(rng.gen_range(-0.001, 0.001));
+            }
+            self.opinions_on_places[view.location.id] += d_opinion;
         }
-        self.opinions_on_places[view.location.id] += d_opinion;
     }
 }
 
-struct Location {
-    id: usize,
-    exits: RefCell<Vec<Rc<Location>>>,
+pub struct Location {
+    pub id: usize,
+    pub exits: RefCell<Vec<Rc<Location>>>,
     agents: RefCell<Vec<Rc<RefCell<Agent>>>>,
     items: RefCell<Vec<Rc<Item>>>,
+    pub agent_time: Cell<f64>,
 }
 
 
@@ -380,6 +436,7 @@ impl Location {
             exits: RefCell::new(Vec::new()),
             agents: RefCell::new(Vec::new()),
             items: RefCell::new(Vec::new()),
+            agent_time: Cell::new(0.0),
         }
     }
 }

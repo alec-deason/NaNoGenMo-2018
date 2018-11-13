@@ -10,12 +10,12 @@ type Nd = isize;
 type Ed = (isize,isize,f64);
 struct Edges(Vec<Ed>, HashMap<isize, String>);
 
-pub fn render_to<W: Write>(agents: Vec<Rc<RefCell<Agent>>>, output: &mut W) {
+pub fn render_to<W: Write>(agents: &Vec<Rc<RefCell<Agent>>>, output: &mut W) {
     let mut edges = Vec::new();
     let mut labels = HashMap::with_capacity(agents.len());
 
     let mut weights = Vec::new();
-    for a in &agents {
+    for a in agents {
         for op in a.borrow().mind.opinions_on_others.iter() {
             weights.push((op.abs() * 1000.0) as u32);
         }
@@ -23,7 +23,7 @@ pub fn render_to<W: Write>(agents: Vec<Rc<RefCell<Agent>>>, output: &mut W) {
     weights.sort();
     let thresh = weights[(weights.len() as f64 * 0.6) as usize] as f64 / 1000.0;
 
-    for a in &agents {
+    for a in agents {
         labels.insert(a.borrow().id as isize, a.borrow().name.clone());
         for (id, op) in a.borrow().mind.opinions_on_others.iter().enumerate() {
             if op.abs() > thresh {
