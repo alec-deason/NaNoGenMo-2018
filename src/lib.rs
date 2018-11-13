@@ -8,6 +8,7 @@ use rand::prelude::SliceRandom;
 use std::fmt;
 use rand::Rng;
 use std::rc::Rc;
+use std::collections::HashMap;
 use rand::distributions::{Normal, Distribution};
 use std::cell::{RefCell, Cell};
 
@@ -19,6 +20,7 @@ pub struct World {
     pub agents: Vec<Rc<RefCell<Agent>>>,
     living_agents: usize,
     pub locations: Vec<Rc<Location>>,
+    pub items: Vec<Rc<Item>>,
 }
 
 impl World {
@@ -36,6 +38,7 @@ impl World {
             agents: Vec::new(),
             living_agents: 0,
             locations: locations,
+            items: Vec::new(),
         };
 
         let loc_count = w.locations.len();
@@ -60,7 +63,8 @@ impl World {
         for _ in 0..(5*world_scale) {
             let idx = rng.gen_range(0, loc_count);
             let loc = w.locations[idx].clone();
-            let item = Rc::new(Item::new(loc.clone()));
+            let item = Rc::new(Item::new(w.items.len(), loc.clone()));
+            w.items.push(item.clone());
             loc.items.borrow_mut().push(item);
         }
 
@@ -71,7 +75,8 @@ impl World {
         let mut rng = rand::thread_rng();
         for _ in 0..self.living_agents/5 {
             let loc = self.locations.choose(&mut rng).unwrap();
-            let item = Rc::new(Item::new(loc.clone()));
+            let item = Rc::new(Item::new(self.items.len(), loc.clone()));
+            self.items.push(item.clone());
             loc.items.borrow_mut().push(item);
         }
 
@@ -84,7 +89,7 @@ impl World {
                 old_location = agent.location.clone();
                 old_location.agent_time.set(old_location.agent_time.get() +STEP_SIZE);
                 self.agent_time += STEP_SIZE;
-                agent.step_simulation();
+                agent.step_simulation(self);
                 if !agent.health.alive {
                     self.living_agents -= 1;
                 }
@@ -186,7 +191,7 @@ impl Agent {
         a
     }
 
-    fn step_simulation(&mut self) {
+    fn step_simulation(&mut self, world: &World) {
         let mut rng = rand::thread_rng();
         let view = HealthView { mind: &self.mind, location: self.location.clone(), events: &mut self.events };
         self.health.step_simulation(view);
@@ -240,9 +245,9 @@ impl Agent {
                 for a in self.location.agents.borrow().iter() {
                     match a.try_borrow() {
                         Ok(aa) => {
-                            if a.borrow().health.alive &&
-                               a.borrow().health.awake &&
-                               self.mind.opinions_on_others[aa.id].abs() > 0.4 {
+                            if aa.health.alive &&
+                               aa.health.awake &&
+                               self.mind.opinions_on_others.get(aa.id).unwrap_or(&0.0).abs() > 0.4 {
                                 people_i_care_about.push(a.clone());
                             }
                         },
@@ -255,8 +260,8 @@ impl Agent {
                         self.action_points -= 2;
                         let conv = conversation::simulate_conversation(self, &interlocular.borrow());
                         let mut interlocular = interlocular.borrow_mut();
-                        self.events.push(Event { msg: format!("Had {} with {} (initiated by me)", conv, interlocular.name).to_string() });
-                        interlocular.events.push(Event { msg: format!("Had {} with {} (initiated by them)", conv, self.name).to_string() });
+                        self.events.push(Event { msg: format!("Had {} with {} (initiated by me)", conv.to_string(world), interlocular.name).to_string() });
+                        interlocular.events.push(Event { msg: format!("Had {} with {} (initiated by them)", conv.to_string(world), self.name).to_string() });
                         self.mind.cheer = (self.mind.cheer + conv.tone * 0.01).max(-1.0).min(1.0);
                         interlocular.mind.cheer = (interlocular.mind.cheer + conv.tone * 0.01).max(-1.0).min(1.0);
                     },
@@ -360,6 +365,7 @@ pub struct Mind {
     pub opinions_on_others: Vec<f64>,
     preconceptions: Vec<f64>,
     opinions_on_places: Vec<f64>,
+    objects_seen: HashMap<usize, usize>,
 }
 
 impl Mind {
@@ -372,6 +378,7 @@ impl Mind {
             opinions_on_others: Vec::with_capacity(1000),
             preconceptions: Vec::with_capacity(1000),
             opinions_on_places: Vec::with_capacity(1000),
+            objects_seen: HashMap::with_capacity(1000),
         }
     }
 
@@ -403,6 +410,10 @@ impl Mind {
                     },
                     Err(_) => () // This is the current agent, fine.
                 }
+            }
+
+            for o in view.location.items.borrow().iter() {
+                self.objects_seen.insert(o.id, view.location.id);
             }
 
             
@@ -441,9 +452,11 @@ impl Location {
     }
 }
 
-struct Item {
+pub struct Item {
+    pub id: usize,
     name: String,
     food_value: f64,
+    monetary_value: f64,
     location: Rc<Location>,
 }
 
@@ -454,10 +467,12 @@ impl PartialEq for Item {
 }
 
 impl Item {
-    fn new(location: Rc<Location>) -> Item {
+    fn new(id: usize, location: Rc<Location>) -> Item {
         Item {
+            id: id,
             name: "Food".to_string(),
             food_value: 1.0,
+            monetary_value: 0.0,
             location: location,
         }
     }
