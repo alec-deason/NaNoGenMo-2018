@@ -86,7 +86,10 @@ fn who_can_we_talk_about(a: &Agent, b: &Agent) -> Topic {
 fn what_can_we_talk_about(a: &Agent, b: &Agent) -> Topic {
     let mut rng = rand::thread_rng();
     let id = a.mind.objects_seen.keys().chain(b.mind.objects_seen.keys()).choose(&mut rng);
-    Topic::Thing { id: *id.unwrap() }
+    match id {
+        Some(id) => Topic::Thing { id: *id },
+        None => Topic::SmallTalk,
+    }
 }
 
 fn where_can_we_talk_about(a: &Agent, b: &Agent) -> Topic {

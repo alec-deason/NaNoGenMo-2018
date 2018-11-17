@@ -1,14 +1,17 @@
 #![feature(vec_remove_item)]
+#![feature(fnbox)]
 extern crate rand;
 
 mod names;
+mod mind;
 mod conversation;
 
+use std::mem;
+use std::boxed::FnBox;
 use rand::prelude::SliceRandom;
 use std::fmt;
 use rand::Rng;
 use std::rc::Rc;
-use std::collections::HashMap;
 use rand::distributions::{Normal, Distribution};
 use std::cell::{RefCell, Cell};
 
@@ -113,7 +116,8 @@ impl World {
     }
 }
 
-struct Event {
+#[derive(Clone, PartialEq)]
+pub struct Event {
     msg: String,
 }
 
@@ -138,7 +142,7 @@ pub struct Agent {
     sex: Sex,
     age: f64,
     pub health: Health,
-    pub mind: Mind,
+    pub mind: mind::Mind,
     location: Rc<Location>,
     events: Vec<Event>,
 
@@ -180,7 +184,7 @@ impl Agent {
             sex: sex,
             age: age,
             health: Health::new(),
-            mind: Mind::new(),
+            mind: mind::Mind::new(),
             location: location,
             events: Vec::new(),
             action_points: 0,
@@ -201,22 +205,26 @@ impl Agent {
             return;
         }
 
-        let view = MindView { health: &self.health, location: self.location.clone(), events: &mut self.events };
+        let view = mind::MindView { health: &self.health, location: self.location.clone(), events: &mut self.events };
         self.mind.step_simulation(view);
 
         self.age += STEP_SIZE;
 
-        
-        if self.health.sleepiness > 16.0 {
-            self.events.push(Event { msg: "Went to sleep".to_string() });
-            self.health.awake = false;
+        let mut potential_actions = Vec::with_capacity(30);
+        let view = PreActionView { mind: &self.mind, health: &self.health, location: self.location.clone() };
+        potential_actions.extend(self.health.actions(&view));
+        if self.health.awake {
+            potential_actions.extend(self.mind.actions(&view));
         }
 
-        if !self.health.awake && self.health.sleepiness <= 0.0 {
-            self.events.push(Event { msg: "Woke up".to_string() });
-            self.health.awake = true;
-        }
-
+        match potential_actions.choose_weighted_mut(&mut rng, |(w, _)| *w) {
+            Ok((_, actual_action)) => {
+                let view = ActionView { mind: &mut self.mind, health: &self.health, location: self.location.clone(), events: &mut self.events };
+                mem::replace(actual_action, Box::new(|view: &mut ActionView| ())).call_box((&mut view,))
+            },
+            Err(_) => (),
+        };
+        /*
         if self.health.awake {
             self.action_points += 1;
             if self.action_points >= 1 && self.health.hunger > 0.3 {
@@ -279,17 +287,12 @@ impl Agent {
                 self.location = new_location;
             }
         }
+            */
     }
 }
 
 struct HealthView<'a> {
-    mind: &'a Mind,
-    location: Rc<Location>,
-    events: &'a mut Vec<Event>,
-}
-
-struct MindView<'a> {
-    health: &'a Health,
+    mind: &'a mind::Mind,
     location: Rc<Location>,
     events: &'a mut Vec<Event>,
 }
@@ -303,6 +306,54 @@ pub struct Health {
     alive: bool,
     awake: bool,
 
+}
+
+impl<'a> ActionSource<'a>  for Health {
+    fn actions(&'a self, view: &PreActionView) -> Vec<(f64, Box<FnBox(&mut ActionView) + 'a>)> {
+        let mut actions = Vec::new();
+
+        if self.sleepiness > 16.0 && self.awake {
+            let c:Box<FnBox(&mut ActionView) + 'a> = Box::new(|view: &mut ActionView| {
+                let health = self;
+                health.awake = false;
+                view.events.push(Event { msg: "Went to sleep".to_string() })
+            });
+            actions.push((1.0, c));
+        } else if self.sleepiness <= 0.0 && !self.awake {
+            let c:Box<FnBox(&mut ActionView) + 'a> = Box::new(|view: &mut ActionView| {
+                let health = self;
+                health.awake = true;
+                view.events.push(Event { msg: "Woke up".to_string() })
+            });
+            actions.push((1.0, c));
+        }
+
+        if self.awake && self.hunger > 0.3 {
+            let c:Box<FnBox(&mut ActionView) + 'a> = Box::new(|view: &mut ActionView| {
+                let mut food = Vec::new();
+                for i in view.location.items.borrow().iter() {
+                    if i.food_value > 0.0 {
+                        food.push(i.clone());
+                    }
+                }
+
+                let mut rng = rand::thread_rng();
+                let thing_to_eat = food.choose(&mut rng);
+
+                match thing_to_eat {
+                    Some(thing_to_eat) => {
+                        self.hunger = (self.hunger - thing_to_eat.food_value).max(0.0);
+                        view.location.items.borrow_mut().remove_item(thing_to_eat);
+                        view.events.push(Event { msg: format!("Ate {}", thing_to_eat.name).to_string() });
+                        view.mind.cheer = (view.mind.cheer + 0.5).min(1.0);
+                    },
+                    None => view.mind.cheer = (view.mind.cheer - 0.05).max(-1.0), // Nothing to eat :(
+                }
+            });
+            actions.push((1.0, c));
+        }
+        actions
+    }
 }
 
 impl Health {
@@ -358,73 +409,6 @@ impl Health {
 
     }
 }
-
-pub struct Mind {
-    cheer: f64,
-    disposition: f64,
-    pub opinions_on_others: Vec<f64>,
-    preconceptions: Vec<f64>,
-    opinions_on_places: Vec<f64>,
-    objects_seen: HashMap<usize, usize>,
-}
-
-impl Mind {
-    fn new() -> Mind {
-        let mut rng = rand::thread_rng();
-        let disposition = rng.gen_range(-1.0, 1.0);
-        Mind {
-            cheer: disposition,
-            disposition: disposition,
-            opinions_on_others: Vec::with_capacity(1000),
-            preconceptions: Vec::with_capacity(1000),
-            opinions_on_places: Vec::with_capacity(1000),
-            objects_seen: HashMap::with_capacity(1000),
-        }
-    }
-
-    fn step_simulation(&mut self, view: MindView) {
-        let mut rng = rand::thread_rng();
-        // Current cheer level tends to drift back towards overall disposition
-        self.cheer += -0.001*(self.cheer-self.disposition);
-        self.cheer = (self.cheer - view.health.pain * 0.2).min(1.0).max(-1.0);
-
-        if view.health.awake {
-            if view.health.sleepiness > 16.0 {
-                self.cheer -= 0.1;
-            }
-
-            let d_opinion = self.cheer*0.1;
-            for a in view.location.agents.borrow().iter() {
-                match a.try_borrow() {
-                    Ok(a) => {
-                        if a.health.alive {
-                            while self.opinions_on_others.len() <= a.id {
-                                self.preconceptions.push(rng.gen_range(-0.1, 0.1));
-                                self.opinions_on_others.push(0.0)
-                            }
-                            if self.opinions_on_others[a.id] == 0.0 {
-                                view.events.push(Event { msg: format!("Met {}", a.name).to_string() });
-                            }
-                            self.opinions_on_others[a.id] += d_opinion + self.preconceptions[a.id];
-                        }
-                    },
-                    Err(_) => () // This is the current agent, fine.
-                }
-            }
-
-            for o in view.location.items.borrow().iter() {
-                self.objects_seen.insert(o.id, view.location.id);
-            }
-
-            
-            while self.opinions_on_places.len() <= view.location.id {
-                self.opinions_on_places.push(rng.gen_range(-0.001, 0.001));
-            }
-            self.opinions_on_places[view.location.id] += d_opinion;
-        }
-    }
-}
-
 pub struct Location {
     pub id: usize,
     pub exits: RefCell<Vec<Rc<Location>>>,
@@ -476,4 +460,21 @@ impl Item {
             location: location,
         }
     }
+}
+
+pub struct PreActionView<'a> {
+    pub mind: &'a mind::Mind,
+    pub health: &'a Health,
+    pub location: Rc<Location>,
+}
+
+pub struct ActionView<'a> {
+    pub mind: &'a mut mind::Mind,
+    pub health: &'a Health,
+    pub location: Rc<Location>,
+    pub events: &'a mut Vec<Event>,
+}
+
+pub trait ActionSource<'a> {
+    fn actions(&'a self, view: &PreActionView) -> Vec<(f64, Box<FnBox(&mut ActionView) + 'a>)>;
 }
