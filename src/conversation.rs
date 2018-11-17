@@ -9,7 +9,7 @@ pub struct Conversation {
 }
 
 impl Conversation {
-      pub fn to_string(&self, w: &World) -> String {
+      pub fn to_string(&self) -> String {
           let tone = if self.tone > 1.0 {
               "nice"
           } else if self.tone < -1.0 {
@@ -19,11 +19,11 @@ impl Conversation {
           let mut topics = Vec::new();
           for topic in &self.topics {
               let topic_str = match topic {
-                  Topic::Person {id} => w.agents[*id].borrow().name.clone(),
+                  Topic::Person {id} => "Some dude".to_string(), //w.agents[*id].borrow().name.clone(),
                   Topic::Relationship { id_a, id_b, tone } => {
                       "a relationship".to_string()
                   },
-                  Topic::Thing { id } => w.items[*id].name.clone(),
+                  Topic::Thing { id } => "Some thing".to_string(), //w.items[*id].name.clone(),
                   Topic::Place { id } => "a place".to_string(),
                   Topic::SmallTalk => "nothing in particular".to_string(),
               };

@@ -1,4 +1,5 @@
 #![feature(vec_remove_item)]
+#![feature(closure_to_fn_coercion)]
 #![feature(fnbox)]
 extern crate rand;
 
@@ -211,83 +212,15 @@ impl Agent {
         self.age += STEP_SIZE;
 
         let mut potential_actions = Vec::with_capacity(30);
-        let view = PreActionView { mind: &self.mind, health: &self.health, location: self.location.clone() };
-        potential_actions.extend(self.health.actions(&view));
-        if self.health.awake {
-            potential_actions.extend(self.mind.actions(&view));
-        }
+        potential_actions.extend(self.health.actions(self));
+        potential_actions.extend(self.mind.actions(self));
 
         match potential_actions.choose_weighted_mut(&mut rng, |(w, _)| *w) {
             Ok((_, actual_action)) => {
-                let view = ActionView { mind: &mut self.mind, health: &self.health, location: self.location.clone(), events: &mut self.events };
-                mem::replace(actual_action, Box::new(|view: &mut ActionView| ())).call_box((&mut view,))
+                actual_action(self);
             },
             Err(_) => (),
         };
-        /*
-        if self.health.awake {
-            self.action_points += 1;
-            if self.action_points >= 1 && self.health.hunger > 0.3 {
-                let mut food = Vec::new();
-                for i in self.location.items.borrow().iter() {
-                    if i.food_value > 0.0 {
-                        food.push(i.clone());
-                    }
-                }
-
-                let thing_to_eat = food.choose(&mut rng);
-
-                match thing_to_eat {
-                    Some(thing_to_eat) => {
-                        self.health.hunger = (self.health.hunger - thing_to_eat.food_value).max(0.0);
-                        self.location.items.borrow_mut().remove_item(thing_to_eat);
-                        self.events.push(Event { msg: format!("Ate {}", thing_to_eat.name).to_string() });
-                        self.mind.cheer = (self.mind.cheer + 0.5).min(1.0);
-                    },
-                    None => self.mind.cheer = (self.mind.cheer - 0.05).max(-1.0), // Nothing to eat :(
-                }
-            }
-
-            if self.action_points >= 2 && self.health.hunger < 0.7 {
-                let mut people_i_care_about = Vec::new();
-                for a in self.location.agents.borrow().iter() {
-                    match a.try_borrow() {
-                        Ok(aa) => {
-                            if aa.health.alive &&
-                               aa.health.awake &&
-                               self.mind.opinions_on_others.get(aa.id).unwrap_or(&0.0).abs() > 0.4 {
-                                people_i_care_about.push(a.clone());
-                            }
-                        },
-                        Err(_) => () // This is the current agent, fine.
-                    }
-                }
-                let who_should_i_talk_to = people_i_care_about.choose(&mut rng);
-                match who_should_i_talk_to {
-                    Some(interlocular) => {
-                        self.action_points -= 2;
-                        let conv = conversation::simulate_conversation(self, &interlocular.borrow());
-                        let mut interlocular = interlocular.borrow_mut();
-                        self.events.push(Event { msg: format!("Had {} with {} (initiated by me)", conv.to_string(world), interlocular.name).to_string() });
-                        interlocular.events.push(Event { msg: format!("Had {} with {} (initiated by them)", conv.to_string(world), self.name).to_string() });
-                        self.mind.cheer = (self.mind.cheer + conv.tone * 0.01).max(-1.0).min(1.0);
-                        interlocular.mind.cheer = (interlocular.mind.cheer + conv.tone * 0.01).max(-1.0).min(1.0);
-                    },
-                    None => () // Nobody I care about around
-                };
-            }
-
-            if self.action_points >= 5 {
-                self.action_points -= 5;
-                let mut rng = rand::thread_rng();
-                let loc = self.location.clone();
-                let exits = loc.exits.borrow();
-                let new_location = exits.choose_weighted(&mut rng, |loc| *self.mind.opinions_on_places.get(loc.id).  unwrap_or(&0.0) + 10000.0).unwrap().clone();
-                self.events.push(Event { msg: format!("Moved from {} to {}", self.location.id, new_location.id).to_string() });
-                self.location = new_location;
-            }
-        }
-            */
     }
 }
 
@@ -308,30 +241,25 @@ pub struct Health {
 
 }
 
-impl<'a> ActionSource<'a>  for Health {
-    fn actions(&'a self, view: &PreActionView) -> Vec<(f64, Box<FnBox(&mut ActionView) + 'a>)> {
-        let mut actions = Vec::new();
+impl ActionSource  for Health {
+    fn actions(& self, gent: &Agent) -> Vec<(f64, fn(&mut Agent))> {
+        let mut actions:Vec<(f64, fn(&mut Agent))> = Vec::new();
 
         if self.sleepiness > 16.0 && self.awake {
-            let c:Box<FnBox(&mut ActionView) + 'a> = Box::new(|view: &mut ActionView| {
-                let health = self;
-                health.awake = false;
-                view.events.push(Event { msg: "Went to sleep".to_string() })
-            });
-            actions.push((1.0, c));
+            actions.push((1.0, |agent| {
+                agent.health.awake = false;
+                agent.events.push(Event { msg: "Went to sleep".to_string() })
+            }));
         } else if self.sleepiness <= 0.0 && !self.awake {
-            let c:Box<FnBox(&mut ActionView) + 'a> = Box::new(|view: &mut ActionView| {
-                let health = self;
-                health.awake = true;
-                view.events.push(Event { msg: "Woke up".to_string() })
-            });
-            actions.push((1.0, c));
+            actions.push((1.0, |agent| {
+                agent.health.awake = true;
+                agent.events.push(Event { msg: "Woke up".to_string() })
+            }));
         }
-
         if self.awake && self.hunger > 0.3 {
-            let c:Box<FnBox(&mut ActionView) + 'a> = Box::new(|view: &mut ActionView| {
+            actions.push((1.0, |agent| {
                 let mut food = Vec::new();
-                for i in view.location.items.borrow().iter() {
+                for i in agent.location.items.borrow().iter() {
                     if i.food_value > 0.0 {
                         food.push(i.clone());
                     }
@@ -342,15 +270,14 @@ impl<'a> ActionSource<'a>  for Health {
 
                 match thing_to_eat {
                     Some(thing_to_eat) => {
-                        self.hunger = (self.hunger - thing_to_eat.food_value).max(0.0);
-                        view.location.items.borrow_mut().remove_item(thing_to_eat);
-                        view.events.push(Event { msg: format!("Ate {}", thing_to_eat.name).to_string() });
-                        view.mind.cheer = (view.mind.cheer + 0.5).min(1.0);
+                        agent.health.hunger = (agent.health.hunger - thing_to_eat.food_value).max(0.0);
+                        agent.location.items.borrow_mut().remove_item(thing_to_eat);
+                        agent.events.push(Event { msg: format!("Ate {}", thing_to_eat.name).to_string() });
+                        agent.mind.cheer = (agent.mind.cheer + 0.5).min(1.0);
                     },
-                    None => view.mind.cheer = (view.mind.cheer - 0.05).max(-1.0), // Nothing to eat :(
-                }
-            });
-            actions.push((1.0, c));
+                    None => agent.mind.cheer = (agent.mind.cheer - 0.05).max(-1.0), // Nothing to eat :(
+                };
+            }));
         }
         actions
     }
@@ -475,6 +402,6 @@ pub struct ActionView<'a> {
     pub events: &'a mut Vec<Event>,
 }
 
-pub trait ActionSource<'a> {
-    fn actions(&'a self, view: &PreActionView) -> Vec<(f64, Box<FnBox(&mut ActionView) + 'a>)>;
+pub trait ActionSource {
+    fn actions(&self, agent: &Agent) -> Vec<(f64, fn(&mut Agent))>;
 }

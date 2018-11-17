@@ -1,0 +1,3090 @@
+Events for: (Elijah Rodriguez, Male, 27.620905467371873)
+Agent created
+Moved from 75 to 69
+Moved from 69 to 45
+Moved from 45 to 77
+Went to sleep
+Woke up
+Met Mary Lopez
+Moved from 77 to 5
+Moved from 5 to 11
+Ate Food
+Met Matías Hall
+Moved from 11 to 50
+Met Elizabeth Brown
+Had a neutral conversation about a place with Matías Hall (initiated by them)
+Moved from 50 to 42
+Had a neutral conversation about nothing in particular with Matías Hall (initiated by me)
+Had a neutral conversation about Some dude with Matías Hall (initiated by them)
+Moved from 42 to 81
+Had a neutral conversation about Some dude with Matías Hall (initiated by me)
+Had a neutral conversation about Some thing with Matías Hall (initiated by them)
+Had a neutral conversation about Some dude with Matías Hall (initiated by me)
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Moved from 81 to 11
+Moved from 11 to 50
+Went to sleep
+Woke up
+Moved from 50 to 42
+Moved from 42 to 81
+Ate Food
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Met Elizabeth Moore
+Moved from 63 to 60
+Went to sleep
+Woke up
+Ate Food
+Moved from 60 to 5
+Had a nice conversation about a place with Matías Hall (initiated by me)
+Had a nice conversation about Some dude with Matías Hall (initiated by them)
+Moved from 5 to 11
+Moved from 11 to 50
+Met Alejandro Martinez
+Had a nice conversation about a place with Matías Hall (initiated by me)
+Moved from 50 to 42
+Moved from 42 to 81
+Went to sleep
+Woke up
+Moved from 81 to 11
+Moved from 11 to 50
+Ate Food
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Went to sleep
+Woke up
+Moved from 19 to 6
+Met Amelia Gonzalez
+Moved from 6 to 50
+Ate Food
+Had a neutral conversation about Some thing with Amelia Gonzalez (initiated by me)
+Had a neutral conversation about Some thing with Amelia Gonzalez (initiated by me)
+Moved from 50 to 42
+Had a neutral conversation about Some thing with Amelia Gonzalez (initiated by them)
+Had a neutral conversation about a place with Amelia Gonzalez (initiated by me)
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Went to sleep
+Woke up
+Ate Food
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 15
+Moved from 15 to 0
+Moved from 0 to 36
+Moved from 36 to 28
+Moved from 28 to 9
+Moved from 9 to 51
+Moved from 51 to 36
+Moved from 36 to 28
+Moved from 28 to 9
+Moved from 9 to 95
+Went to sleep
+Woke up
+Moved from 95 to 14
+Moved from 14 to 26
+Ate Food
+Moved from 26 to 68
+Moved from 68 to 32
+Moved from 32 to 43
+Moved from 43 to 0
+Moved from 0 to 25
+Went to sleep
+Woke up
+Moved from 25 to 47
+Moved from 47 to 86
+Ate Food
+Met Charlotte Thomas
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 32
+Moved from 32 to 43
+Moved from 43 to 0
+Went to sleep
+Woke up
+Moved from 0 to 36
+Moved from 36 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Ate Food
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 88
+Moved from 88 to 23
+Moved from 23 to 12
+Moved from 12 to 45
+Went to sleep
+Woke up
+Moved from 45 to 77
+Moved from 77 to 19
+Ate Food
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Met Susan Smith
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 15
+Went to sleep
+Woke up
+Ate Food
+Moved from 15 to 17
+Moved from 17 to 29
+Moved from 29 to 19
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 15
+Had a neutral conversation about Some dude with Susan Smith (initiated by me)
+Had a neutral conversation about a place with Susan Smith (initiated by me)
+Had a neutral conversation about Some thing with Susan Smith (initiated by me)
+Moved from 15 to 0
+Went to sleep
+Woke up
+Ate Food
+Moved from 0 to 25
+Moved from 25 to 59
+Moved from 59 to 22
+Moved from 22 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Went to sleep
+Woke up
+Moved from 86 to 14
+Moved from 14 to 26
+Ate Food
+Moved from 26 to 68
+Moved from 68 to 32
+Moved from 32 to 43
+Moved from 43 to 0
+Moved from 0 to 25
+Moved from 25 to 47
+Moved from 47 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Went to sleep
+Woke up
+Moved from 68 to 32
+Moved from 32 to 43
+Ate Food
+Moved from 43 to 0
+Moved from 0 to 25
+Moved from 25 to 59
+Moved from 59 to 22
+Moved from 22 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 88
+Moved from 88 to 23
+Moved from 23 to 12
+Went to sleep
+Woke up
+Moved from 12 to 45
+Moved from 45 to 77
+Ate Food
+Moved from 77 to 19
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Had a neutral conversation about nothing in particular with Susan Smith (initiated by me)
+Moved from 11 to 24
+Had a nice conversation about a place with Matías Hall (initiated by them)
+Had a neutral conversation about nothing in particular with Susan Smith (initiated by me)
+Moved from 24 to 10
+Went to sleep
+Woke up
+Ate Food
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 67
+Moved from 67 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Went to sleep
+Woke up
+Moved from 14 to 68
+Ate Food
+Moved from 68 to 32
+Moved from 32 to 43
+Moved from 43 to 0
+Moved from 0 to 36
+Moved from 36 to 28
+Moved from 28 to 9
+Moved from 9 to 51
+Moved from 51 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 32
+Went to sleep
+Woke up
+Ate Food
+Moved from 32 to 43
+Moved from 43 to 0
+Met Nicolás Young
+Moved from 0 to 36
+Moved from 36 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Went to sleep
+Woke up
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Ate Food
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Went to sleep
+Woke up
+Ate Food
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Went to sleep
+Woke up
+Ate Food
+Moved from 19 to 6
+Moved from 6 to 50
+Had a nice conversation about a place with Matías Hall (initiated by me)
+Had a nice conversation about nothing in particular with Matías Hall (initiated by them)
+Moved from 50 to 42
+Had a nice conversation about Some thing with Matías Hall (initiated by me)
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Went to sleep
+Woke up
+Moved from 65 to 19
+Ate Food
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Went to sleep
+Woke up
+Moved from 42 to 81
+Ate Food
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 50
+Went to sleep
+Woke up
+Ate Food
+Had a nice conversation about Some dude with Susan Smith (initiated by me)
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 24
+Went to sleep
+Woke up
+Ate Food
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 32
+Moved from 32 to 43
+Moved from 43 to 0
+Moved from 0 to 25
+Moved from 25 to 59
+Went to sleep
+Woke up
+Ate Food
+Moved from 59 to 22
+Moved from 22 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Moved from 63 to 44
+Had a neutral conversation about Some dude with Charlotte Thomas (initiated by them)
+Moved from 44 to 15
+Went to sleep
+Woke up
+Ate Food
+Moved from 15 to 0
+Moved from 0 to 25
+Moved from 25 to 59
+Moved from 59 to 22
+Moved from 22 to 21
+Moved from 21 to 99
+Moved from 99 to 62
+Moved from 62 to 93
+Moved from 93 to 48
+Moved from 48 to 61
+Moved from 61 to 18
+Went to sleep
+Woke up
+Ate Food
+Moved from 18 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Moved from 57 to 77
+Moved from 77 to 5
+Moved from 5 to 11
+Moved from 11 to 50
+Had a neutral conversation about nothing in particular with Alejandro Martinez (initiated by me)
+Moved from 50 to 42
+Moved from 42 to 81
+Had a neutral conversation about Some thing with Alejandro Martinez (initiated by me)
+Went to sleep
+Woke up
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Ate Food
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Had a nice conversation about Some dude with Susan Smith (initiated by me)
+Had a nice conversation about Some thing with Susan Smith (initiated by me)
+Moved from 63 to 60
+Had a nice conversation about Some thing with Susan Smith (initiated by me)
+Had a nice conversation about Some dude with Susan Smith (initiated by me)
+Moved from 60 to 5
+Moved from 5 to 11
+Went to sleep
+Woke up
+Had a nice conversation about Some thing with Susan Smith (initiated by me)
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Had a neutral conversation about Some dude with Elizabeth Brown (initiated by me)
+Ate Food
+Moved from 81 to 55
+Moved from 55 to 73
+Had a neutral conversation about Some dude with Mary Lopez (initiated by them)
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Had a neutral conversation about Some thing with Elizabeth Moore (initiated by me)
+Had a neutral conversation about Some thing with Elizabeth Moore (initiated by me)
+Moved from 6 to 90
+Moved from 90 to 71
+Went to sleep
+Woke up
+Moved from 71 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Moved from 57 to 17
+Moved from 17 to 29
+Ate Food
+Moved from 29 to 19
+Moved from 19 to 63
+Had a neutral conversation about a place with Elizabeth Brown (initiated by them)
+Had a nice conversation about nothing in particular with Matías Hall (initiated by me)
+Had a neutral conversation about a place with Elizabeth Brown (initiated by them)
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Had a neutral conversation about a place with Elizabeth Brown (initiated by me)
+Had a nice conversation about nothing in particular with Elizabeth Brown (initiated by me)
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by them)
+Moved from 63 to 60
+Moved from 60 to 5
+Went to sleep
+Woke up
+Ate Food
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Moved from 57 to 77
+Moved from 77 to 5
+Moved from 5 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Went to sleep
+Woke up
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 32
+Moved from 32 to 43
+Moved from 43 to 0
+Ate Food
+Moved from 0 to 25
+Moved from 25 to 47
+Moved from 47 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 15
+Moved from 15 to 17
+Went to sleep
+Woke up
+Ate Food
+Moved from 17 to 29
+Moved from 29 to 19
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Went to sleep
+Woke up
+Ate Food
+Moved from 57 to 77
+Moved from 77 to 5
+Moved from 5 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Went to sleep
+Woke up
+Moved from 65 to 19
+Moved from 19 to 63
+Ate Food
+Moved from 63 to 60
+Moved from 60 to 5
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by them)
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by me)
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by them)
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by me)
+Moved from 5 to 20
+Moved from 20 to 83
+Had a nice conversation about nothing in particular with Susan Smith (initiated by me)
+Had a nice conversation about nothing in particular with Susan Smith (initiated by me)
+Moved from 83 to 6
+Went to sleep
+Woke up
+Ate Food
+Had a nice conversation about a place with Elizabeth Brown (initiated by me)
+Had a nice conversation about nothing in particular with Elizabeth Brown (initiated by them)
+Had a nice conversation about a place with Elizabeth Brown (initiated by me)
+Had a nice conversation about nothing in particular with Elizabeth Brown (initiated by them)
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 21
+Went to sleep
+Woke up
+Ate Food
+Moved from 21 to 99
+Moved from 99 to 57
+Moved from 57 to 17
+Moved from 17 to 29
+Moved from 29 to 15
+Had a nice conversation about nothing in particular with Matías Hall (initiated by them)
+Moved from 15 to 17
+Moved from 17 to 84
+Moved from 84 to 13
+Went to sleep
+Woke up
+Ate Food
+Moved from 13 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Moved from 57 to 17
+Moved from 17 to 29
+Moved from 29 to 15
+Moved from 15 to 0
+Had a nice conversation about Some dude with Elizabeth Brown (initiated by them)
+Moved from 0 to 36
+Moved from 36 to 73
+Had a neutral conversation about nothing in particular with Mary Lopez (initiated by them)
+Moved from 73 to 65
+Moved from 65 to 19
+Went to sleep
+Woke up
+Ate Food
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Went to sleep
+Woke up
+Ate Food
+Moved from 68 to 15
+Moved from 15 to 0
+Moved from 0 to 36
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by me)
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by them)
+Moved from 36 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Moved from 63 to 44
+Went to sleep
+Woke up
+Ate Food
+Moved from 44 to 15
+Moved from 15 to 17
+Moved from 17 to 84
+Moved from 84 to 13
+Moved from 13 to 83
+Moved from 83 to 6
+Moved from 6 to 50
+Went to sleep
+Woke up
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by me)
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by me)
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by them)
+Moved from 50 to 42
+Ate Food
+Had a nice conversation about a place with Amelia Gonzalez (initiated by them)
+Moved from 42 to 81
+Moved from 81 to 55
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by me)
+Moved from 55 to 73
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by them)
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by me)
+Had a nice conversation about Some thing with Matías Hall (initiated by me)
+Moved from 73 to 65
+Went to sleep
+Woke up
+Moved from 65 to 19
+Ate Food
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Went to sleep
+Woke up
+Moved from 86 to 14
+Ate Food
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 67
+Moved from 67 to 80
+Moved from 80 to 81
+Moved from 81 to 11
+Went to sleep
+Woke up
+Moved from 11 to 24
+Moved from 24 to 10
+Ate Food
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 15
+Had a neutral conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Moved from 15 to 17
+Moved from 17 to 29
+Had a neutral conversation about Some dude with Elizabeth Moore (initiated by me)
+Moved from 29 to 19
+Moved from 19 to 6
+Had a neutral conversation about Some dude with Elizabeth Moore (initiated by me)
+Had a neutral conversation about a place with Elizabeth Moore (initiated by them)
+Went to sleep
+Woke up
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Ate Food
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 90
+Went to sleep
+Woke up
+Moved from 90 to 88
+Moved from 88 to 23
+Moved from 23 to 12
+Ate Food
+Moved from 12 to 45
+Moved from 45 to 77
+Moved from 77 to 5
+Moved from 5 to 11
+Had a neutral conversation about nothing in particular with Elizabeth Moore (initiated by them)
+Had a neutral conversation about Some thing with Elizabeth Moore (initiated by me)
+Moved from 11 to 50
+Moved from 50 to 42
+Went to sleep
+Woke up
+Ate Food
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 50
+Had a neutral conversation about Some dude with Mary Lopez (initiated by them)
+Moved from 50 to 42
+Had a neutral conversation about Some dude with Charlotte Thomas (initiated by them)
+Had a neutral conversation about a place with Mary Lopez (initiated by them)
+Moved from 42 to 81
+Went to sleep
+Woke up
+Moved from 81 to 11
+Moved from 11 to 24
+Ate Food
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 15
+Moved from 15 to 0
+Moved from 0 to 36
+Went to sleep
+Woke up
+Moved from 36 to 28
+Moved from 28 to 9
+Moved from 9 to 51
+Moved from 51 to 60
+Moved from 60 to 5
+Ate Food
+Moved from 5 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Went to sleep
+Woke up
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 67
+Ate Food
+Moved from 67 to 80
+Moved from 80 to 3
+Moved from 3 to 69
+Moved from 69 to 45
+Moved from 45 to 77
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Had a nice conversation about Some thing with Matías Hall (initiated by me)
+Went to sleep
+Woke up
+Ate Food
+Moved from 77 to 19
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 82
+Moved from 82 to 55
+Had a nice conversation about a place with Nicolás Young (initiated by me)
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Went to sleep
+Woke up
+Ate Food
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Moved from 57 to 17
+Moved from 17 to 84
+Moved from 84 to 13
+Went to sleep
+Woke up
+Moved from 13 to 87
+Moved from 87 to 87
+Ate Food
+Moved from 87 to 87
+Moved from 87 to 87
+Moved from 87 to 17
+Moved from 17 to 84
+Went to sleep
+Woke up
+Moved from 84 to 80
+Ate Food
+Moved from 80 to 3
+Moved from 3 to 2
+Moved from 2 to 57
+Moved from 57 to 77
+Moved from 77 to 5
+Went to sleep
+Woke up
+Moved from 5 to 20
+Moved from 20 to 83
+Ate Food
+Moved from 83 to 2
+Moved from 2 to 57
+Had a neutral conversation about Some dude with Alejandro Martinez (initiated by me)
+Moved from 57 to 77
+Moved from 77 to 5
+Went to sleep
+Woke up
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by me)
+Ate Food
+Moved from 5 to 20
+Had a nice conversation about Some dude with Alejandro Martinez (initiated by me)
+Moved from 20 to 83
+Moved from 83 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 21
+Moved from 21 to 99
+Moved from 99 to 62
+Moved from 62 to 93
+Went to sleep
+Woke up
+Moved from 93 to 48
+Moved from 48 to 32
+Ate Food
+Moved from 32 to 43
+Moved from 43 to 0
+Moved from 0 to 36
+Moved from 36 to 28
+Moved from 28 to 9
+Moved from 9 to 51
+Moved from 51 to 60
+Went to sleep
+Woke up
+Ate Food
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Had a neutral conversation about Some dude with Mary Lopez (initiated by them)
+Went to sleep
+Woke up
+Moved from 86 to 14
+Moved from 14 to 68
+Ate Food
+Moved from 68 to 15
+Had a nice conversation about a place with Nicolás Young (initiated by me)
+Moved from 15 to 17
+Moved from 17 to 84
+Moved from 84 to 13
+Moved from 13 to 83
+Had a neutral conversation about Some thing with Charlotte Thomas (initiated by them)
+Moved from 83 to 6
+Moved from 6 to 90
+Went to sleep
+Woke up
+Moved from 90 to 71
+Ate Food
+Moved from 71 to 21
+Moved from 21 to 44
+Moved from 44 to 82
+Moved from 82 to 91
+Moved from 91 to 40
+Went to sleep
+Woke up
+Moved from 40 to 63
+Ate Food
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Moved from 57 to 17
+Moved from 17 to 84
+Moved from 84 to 80
+Went to sleep
+Woke up
+Ate Food
+Moved from 80 to 81
+Moved from 81 to 55
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Had a nice conversation about nothing in particular with Susan Smith (initiated by me)
+Had a nice conversation about Some thing with Susan Smith (initiated by me)
+Had a nice conversation about Some thing with Susan Smith (initiated by me)
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Moved from 55 to 73
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Moved from 73 to 65
+Went to sleep
+Woke up
+Moved from 65 to 19
+Moved from 19 to 6
+Ate Food
+Moved from 6 to 50
+Moved from 50 to 42
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Went to sleep
+Woke up
+Moved from 63 to 60
+Ate Food
+Moved from 60 to 5
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Had a nice conversation about nothing in particular with Nicolás Young (initiated by me)
+Had a nice conversation about a place with Nicolás Young (initiated by them)
+Had a nice conversation about Some dude with Nicolás Young (initiated by me)
+Had a nice conversation about Some dude with Nicolás Young (initiated by them)
+Had a nice conversation about a place with Nicolás Young (initiated by me)
+Moved from 81 to 11
+Went to sleep
+Woke up
+Ate Food
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Went to sleep
+Woke up
+Had a nice conversation about nothing in particular with Susan Smith (initiated by me)
+Ate Food
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Moved from 63 to 44
+Moved from 44 to 15
+Moved from 15 to 17
+Moved from 17 to 29
+Went to sleep
+Woke up
+Moved from 29 to 19
+Ate Food
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Went to sleep
+Woke up
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Had a neutral conversation about Some dude with Charlotte Thomas (initiated by them)
+Had a neutral conversation about a place with Charlotte Thomas (initiated by them)
+Ate Food
+Had a neutral conversation about nothing in particular with Charlotte Thomas (initiated by them)
+Moved from 5 to 20
+Moved from 20 to 83
+Had a neutral conversation about Some dude with Charlotte Thomas (initiated by them)
+Moved from 83 to 6
+Moved from 6 to 90
+Moved from 90 to 88
+Moved from 88 to 23
+Moved from 23 to 12
+Moved from 12 to 95
+Went to sleep
+Woke up
+Moved from 95 to 14
+Ate Food
+Had a nice conversation about Some dude with Susan Smith (initiated by me)
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 67
+Moved from 67 to 11
+Had a nice conversation about Some dude with Matías Hall (initiated by them)
+Had a nice conversation about a place with Matías Hall (initiated by me)
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Had a nice conversation about Some thing with Matías Hall (initiated by me)
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Had a nice conversation about Some dude with Matías Hall (initiated by me)
+Went to sleep
+Woke up
+Ate Food
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 15
+Moved from 15 to 0
+Moved from 0 to 25
+Moved from 25 to 47
+Moved from 47 to 86
+Moved from 86 to 14
+Went to sleep
+Woke up
+Ate Food
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 15
+Moved from 15 to 0
+Moved from 0 to 25
+Moved from 25 to 47
+Moved from 47 to 86
+Moved from 86 to 14
+Had a nice conversation about a place with Elizabeth Moore (initiated by them)
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Had a nice conversation about Some dude with Elizabeth Moore (initiated by them)
+Moved from 14 to 68
+Went to sleep
+Woke up
+Ate Food
+Moved from 68 to 32
+Moved from 32 to 43
+Moved from 43 to 0
+Moved from 0 to 25
+Moved from 25 to 47
+Moved from 47 to 86
+Moved from 86 to 14
+Went to sleep
+Woke up
+Moved from 14 to 26
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by me)
+Ate Food
+Moved from 26 to 68
+Had a nice conversation about Some dude with Matías Hall (initiated by me)
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Moved from 68 to 15
+Moved from 15 to 17
+Moved from 17 to 84
+Moved from 84 to 80
+Went to sleep
+Woke up
+Ate Food
+Moved from 80 to 3
+Moved from 3 to 2
+Moved from 2 to 57
+Moved from 57 to 17
+Moved from 17 to 84
+Moved from 84 to 80
+Moved from 80 to 81
+Had a nice conversation about nothing in particular with Susan Smith (initiated by them)
+Moved from 81 to 11
+Moved from 11 to 24
+Went to sleep
+Woke up
+Ate Food
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 15
+Moved from 15 to 17
+Moved from 17 to 29
+Moved from 29 to 15
+Went to sleep
+Woke up
+Moved from 15 to 0
+Ate Food
+Moved from 0 to 25
+Moved from 25 to 59
+Moved from 59 to 22
+Moved from 22 to 65
+Moved from 65 to 19
+Went to sleep
+Woke up
+Ate Food
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 82
+Moved from 82 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 50
+Went to sleep
+Woke up
+Moved from 50 to 42
+Ate Food
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Went to sleep
+Woke up
+Ate Food
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 21
+Went to sleep
+Woke up
+Ate Food
+Moved from 21 to 99
+Moved from 99 to 62
+Moved from 62 to 93
+Moved from 93 to 48
+Moved from 48 to 61
+Went to sleep
+Woke up
+Ate Food
+Moved from 61 to 18
+Moved from 18 to 83
+Moved from 83 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Went to sleep
+Woke up
+Had a nice conversation about a place with Matías Hall (initiated by me)
+Moved from 73 to 65
+Ate Food
+Moved from 65 to 19
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 15
+Went to sleep
+Woke up
+Moved from 15 to 17
+Ate Food
+Moved from 17 to 84
+Moved from 84 to 80
+Moved from 80 to 3
+Moved from 3 to 69
+Moved from 69 to 45
+Moved from 45 to 77
+Moved from 77 to 19
+Moved from 19 to 6
+Had a nice conversation about a place with Matías Hall (initiated by them)
+Moved from 6 to 50
+Had a nice conversation about Some thing with Susan Smith (initiated by them)
+Moved from 50 to 42
+Moved from 42 to 81
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Moved from 81 to 11
+Went to sleep
+Woke up
+Ate Food
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 67
+Moved from 67 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Went to sleep
+Woke up
+Ate Food
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 67
+Went to sleep
+Woke up
+Moved from 67 to 11
+Ate Food
+Had a nice conversation about Some thing with Alejandro Martinez (initiated by me)
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 15
+Moved from 15 to 17
+Went to sleep
+Woke up
+Ate Food
+Moved from 17 to 29
+Had a nice conversation about Some dude with Elizabeth Brown (initiated by them)
+Moved from 29 to 15
+Moved from 15 to 17
+Moved from 17 to 84
+Moved from 84 to 80
+Moved from 80 to 81
+Moved from 81 to 11
+Went to sleep
+Woke up
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 67
+Ate Food
+Moved from 67 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by me)
+Went to sleep
+Woke up
+Had a nice conversation about Some thing with Susan Smith (initiated by me)
+Had a nice conversation about nothing in particular with Susan Smith (initiated by them)
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Ate Food
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by me)
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by them)
+Moved from 65 to 19
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by me)
+Moved from 19 to 6
+Moved from 6 to 90
+Went to sleep
+Woke up
+Moved from 90 to 88
+Ate Food
+Moved from 88 to 9
+Moved from 9 to 95
+Moved from 95 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Went to sleep
+Woke up
+Moved from 65 to 19
+Moved from 19 to 63
+Ate Food
+Had a nice conversation about Some dude with Nicolás Young (initiated by me)
+Had a nice conversation about Some thing with Nicolás Young (initiated by them)
+Moved from 63 to 44
+Moved from 44 to 15
+Moved from 15 to 17
+Moved from 17 to 29
+Moved from 29 to 19
+Went to sleep
+Woke up
+Ate Food
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 82
+Moved from 82 to 91
+Moved from 91 to 40
+Moved from 40 to 63
+Moved from 63 to 60
+Had a nice conversation about Some thing with Elizabeth Moore (initiated by them)
+Moved from 60 to 5
+Had a nice conversation about a place with Amelia Gonzalez (initiated by them)
+Had a nice conversation about a place with Amelia Gonzalez (initiated by me)
+Moved from 5 to 20
+Went to sleep
+Woke up
+Moved from 20 to 83
+Moved from 83 to 6
+Ate Food
+Had a nice conversation about Some dude with Alejandro Martinez (initiated by me)
+Moved from 6 to 50
+Had a nice conversation about a place with Matías Hall (initiated by them)
+Moved from 50 to 42
+Moved from 42 to 81
+Had a nice conversation about Some dude with Alejandro Martinez (initiated by me)
+Had a nice conversation about a place with Alejandro Martinez (initiated by me)
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Had a nice conversation about Some dude with Mary Lopez (initiated by them)
+Moved from 65 to 19
+Went to sleep
+Woke up
+Moved from 19 to 6
+Moved from 6 to 90
+Ate Food
+Moved from 90 to 88
+Moved from 88 to 23
+Moved from 23 to 12
+Moved from 12 to 95
+Moved from 95 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Went to sleep
+Woke up
+Ate Food
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Had a nice conversation about nothing in particular with Susan Smith (initiated by me)
+Moved from 81 to 11
+Moved from 11 to 50
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by them)
+Moved from 50 to 42
+Went to sleep
+Woke up
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 24
+Ate Food
+Moved from 24 to 10
+Moved from 10 to 86
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by them)
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 15
+Went to sleep
+Woke up
+Moved from 15 to 0
+Moved from 0 to 36
+Ate Food
+Moved from 36 to 28
+Moved from 28 to 9
+Moved from 9 to 51
+Moved from 51 to 60
+Went to sleep
+Woke up
+Moved from 60 to 5
+Ate Food
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 68
+Went to sleep
+Woke up
+Moved from 68 to 32
+Moved from 32 to 43
+Ate Food
+Moved from 43 to 0
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by me)
+Moved from 0 to 36
+Moved from 36 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Went to sleep
+Woke up
+Had a nice conversation about Some dude with Alejandro Martinez (initiated by me)
+Ate Food
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 15
+Moved from 15 to 0
+Had a nice conversation about Some dude with Mary Lopez (initiated by them)
+Moved from 0 to 25
+Moved from 25 to 59
+Moved from 59 to 22
+Went to sleep
+Woke up
+Ate Food
+Moved from 22 to 21
+Moved from 21 to 44
+Moved from 44 to 15
+Moved from 15 to 17
+Had a nice conversation about Some thing with Mary Lopez (initiated by them)
+Moved from 17 to 29
+Moved from 29 to 19
+Had a nice conversation about a place with Mary Lopez (initiated by me)
+Moved from 19 to 6
+Moved from 6 to 50
+Had a nice conversation about Some dude with Mary Lopez (initiated by them)
+Had a nice conversation about a place with Mary Lopez (initiated by me)
+Moved from 50 to 42
+Went to sleep
+Woke up
+Had a nice conversation about a place with Mary Lopez (initiated by them)
+Moved from 42 to 81
+Had a nice conversation about a place with Mary Lopez (initiated by me)
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by me)
+Moved from 81 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 15
+Moved from 15 to 0
+Ate Food
+Moved from 0 to 36
+Moved from 36 to 73
+Went to sleep
+Woke up
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Ate Food
+Moved from 71 to 83
+Moved from 83 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Went to sleep
+Woke up
+Moved from 81 to 11
+Ate Food
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Went to sleep
+Woke up
+Moved from 10 to 86
+Moved from 86 to 14
+Ate Food
+Moved from 14 to 68
+Moved from 68 to 15
+Moved from 15 to 0
+Moved from 0 to 25
+Moved from 25 to 59
+Moved from 59 to 22
+Went to sleep
+Woke up
+Ate Food
+Moved from 22 to 65
+Moved from 65 to 19
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by them)
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by me)
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Had a nice conversation about Some thing with Susan Smith (initiated by them)
+Had a nice conversation about Some dude with Susan Smith (initiated by me)
+Had a nice conversation about nothing in particular with Susan Smith (initiated by them)
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Moved from 11 to 24
+Went to sleep
+Woke up
+Ate Food
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 15
+Went to sleep
+Woke up
+Moved from 15 to 0
+Moved from 0 to 25
+Moved from 25 to 47
+Moved from 47 to 86
+Moved from 86 to 14
+Ate Food
+Moved from 14 to 26
+Went to sleep
+Woke up
+Moved from 26 to 68
+Moved from 68 to 32
+Moved from 32 to 43
+Moved from 43 to 0
+Moved from 0 to 25
+Ate Food
+Moved from 25 to 47
+Moved from 47 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 64
+Went to sleep
+Woke up
+Moved from 64 to 67
+Moved from 67 to 11
+Ate Food
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Went to sleep
+Woke up
+Ate Food
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 21
+Moved from 21 to 44
+Moved from 44 to 82
+Went to sleep
+Woke up
+Moved from 82 to 55
+Ate Food
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Went to sleep
+Woke up
+Ate Food
+Moved from 71 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Moved from 57 to 77
+Moved from 77 to 5
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Went to sleep
+Woke up
+Moved from 42 to 81
+Moved from 81 to 55
+Ate Food
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Moved from 63 to 60
+Moved from 60 to 5
+Had a nice conversation about a place with Nicolás Young (initiated by them)
+Moved from 5 to 20
+Moved from 20 to 83
+Went to sleep
+Woke up
+Moved from 83 to 2
+Moved from 2 to 57
+Moved from 57 to 17
+Ate Food
+Moved from 17 to 84
+Moved from 84 to 80
+Moved from 80 to 3
+Moved from 3 to 69
+Moved from 69 to 45
+Moved from 45 to 77
+Moved from 77 to 5
+Went to sleep
+Woke up
+Moved from 5 to 11
+Ate Food
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by me)
+Moved from 65 to 19
+Went to sleep
+Woke up
+Moved from 19 to 63
+Ate Food
+Moved from 63 to 44
+Moved from 44 to 82
+Moved from 82 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Went to sleep
+Woke up
+Ate Food
+Moved from 6 to 90
+Moved from 90 to 88
+Moved from 88 to 9
+Moved from 9 to 51
+Moved from 51 to 36
+Had a nice conversation about a place with Elizabeth Brown (initiated by them)
+Moved from 36 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Went to sleep
+Woke up
+Ate Food
+Moved from 19 to 63
+Had a nice conversation about nothing in particular with Charlotte Thomas (initiated by them)
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 21
+Moved from 21 to 44
+Moved from 44 to 15
+Had a nice conversation about a place with Elizabeth Brown (initiated by them)
+Had a nice conversation about nothing in particular with Elizabeth Brown (initiated by me)
+Had a nice conversation about nothing in particular with Elizabeth Brown (initiated by them)
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by me)
+Had a nice conversation about a place with Elizabeth Brown (initiated by me)
+Went to sleep
+Woke up
+Moved from 15 to 17
+Ate Food
+Moved from 17 to 29
+Moved from 29 to 19
+Had a nice conversation about Some thing with Nicolás Young (initiated by them)
+Had a nice conversation about Some dude with Nicolás Young (initiated by me)
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 20
+Went to sleep
+Woke up
+Ate Food
+Moved from 20 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Moved from 57 to 17
+Had a nice conversation about a place with Amelia Gonzalez (initiated by me)
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by me)
+Had a nice conversation about a place with Amelia Gonzalez (initiated by them)
+Had a nice conversation about a place with Amelia Gonzalez (initiated by me)
+Had a nice conversation about Some dude with Charlotte Thomas (initiated by them)
+Moved from 17 to 29
+Moved from 29 to 19
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by me)
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by them)
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by me)
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by them)
+Moved from 19 to 63
+Went to sleep
+Woke up
+Moved from 63 to 60
+Ate Food
+Moved from 60 to 5
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 6
+Had a nice conversation about a place with Charlotte Thomas (initiated by them)
+Moved from 6 to 50
+Went to sleep
+Woke up
+Moved from 50 to 42
+Ate Food
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Had a nice conversation about Some dude with Charlotte Thomas (initiated by them)
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Moved from 63 to 60
+Went to sleep
+Woke up
+Ate Food
+Moved from 60 to 5
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Moved from 57 to 17
+Moved from 17 to 84
+Moved from 84 to 80
+Moved from 80 to 3
+Went to sleep
+Woke up
+Moved from 3 to 69
+Moved from 69 to 45
+Moved from 45 to 77
+Moved from 77 to 19
+Ate Food
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 2
+Went to sleep
+Woke up
+Moved from 2 to 57
+Moved from 57 to 77
+Moved from 77 to 5
+Moved from 5 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by me)
+Ate Food
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Went to sleep
+Woke up
+Moved from 14 to 68
+Ate Food
+Moved from 68 to 15
+Moved from 15 to 0
+Moved from 0 to 25
+Moved from 25 to 47
+Moved from 47 to 86
+Moved from 86 to 14
+Went to sleep
+Woke up
+Moved from 14 to 26
+Moved from 26 to 64
+Ate Food
+Moved from 64 to 16
+Moved from 16 to 19
+Had a nice conversation about nothing in particular with Nicolás Young (initiated by me)
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 88
+Moved from 88 to 9
+Had a nice conversation about Some dude with Alejandro Martinez (initiated by me)
+Moved from 9 to 95
+Moved from 95 to 14
+Moved from 14 to 68
+Moved from 68 to 15
+Went to sleep
+Woke up
+Ate Food
+Moved from 15 to 17
+Moved from 17 to 29
+Moved from 29 to 15
+Moved from 15 to 0
+Moved from 0 to 36
+Moved from 36 to 28
+Moved from 28 to 9
+Moved from 9 to 95
+Went to sleep
+Woke up
+Ate Food
+Moved from 95 to 14
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 67
+Moved from 67 to 11
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Had a nice conversation about Some thing with Susan Smith (initiated by them)
+Moved from 11 to 24
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Moved from 24 to 10
+Moved from 10 to 86
+Had a nice conversation about Some dude with Susan Smith (initiated by them)
+Moved from 86 to 14
+Went to sleep
+Woke up
+Moved from 14 to 26
+Ate Food
+Had a nice conversation about Some dude with Matías Hall (initiated by me)
+Moved from 26 to 68
+Had a nice conversation about a place with Alejandro Martinez (initiated by them)
+Moved from 68 to 15
+Moved from 15 to 17
+Moved from 17 to 84
+Moved from 84 to 13
+Moved from 13 to 87
+Moved from 87 to 17
+Moved from 17 to 84
+Moved from 84 to 80
+Went to sleep
+Woke up
+Ate Food
+Moved from 80 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Had a nice conversation about Some dude with Elizabeth Brown (initiated by them)
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 64
+Went to sleep
+Woke up
+Moved from 64 to 16
+Moved from 16 to 19
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 82
+Ate Food
+Moved from 82 to 55
+Moved from 55 to 73
+Went to sleep
+Woke up
+Moved from 73 to 65
+Ate Food
+Moved from 65 to 19
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 15
+Went to sleep
+Woke up
+Had a nice conversation about Some dude with Alejandro Martinez (initiated by me)
+Ate Food
+Moved from 15 to 17
+Moved from 17 to 84
+Moved from 84 to 13
+Moved from 13 to 87
+Moved from 87 to 17
+Moved from 17 to 29
+Moved from 29 to 15
+Moved from 15 to 0
+Went to sleep
+Woke up
+Moved from 0 to 25
+Ate Food
+Moved from 25 to 59
+Moved from 59 to 22
+Moved from 22 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Went to sleep
+Woke up
+Ate Food
+Moved from 42 to 81
+Moved from 81 to 11
+Had a nice conversation about a place with Alejandro Martinez (initiated by them)
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by me)
+Had a nice conversation about Some thing with Alejandro Martinez (initiated by me)
+Moved from 11 to 24
+Moved from 24 to 10
+Had a nice conversation about Some thing with Alejandro Martinez (initiated by me)
+Moved from 10 to 86
+Moved from 86 to 14
+Had a nice conversation about Some thing with Alejandro Martinez (initiated by me)
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by me)
+Moved from 14 to 68
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by me)
+Had a nice conversation about a place with Alejandro Martinez (initiated by me)
+Moved from 68 to 15
+Moved from 15 to 17
+Went to sleep
+Woke up
+Moved from 17 to 29
+Ate Food
+Moved from 29 to 19
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 88
+Moved from 88 to 23
+Moved from 23 to 12
+Moved from 12 to 45
+Moved from 45 to 77
+Moved from 77 to 19
+Went to sleep
+Woke up
+Had a nice conversation about nothing in particular with Elizabeth Brown (initiated by me)
+Had a nice conversation about Some dude with Elizabeth Brown (initiated by them)
+Ate Food
+Had a nice conversation about Some thing with Matías Hall (initiated by me)
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Had a nice conversation about Some dude with Matías Hall (initiated by me)
+Had a nice conversation about a place with Matías Hall (initiated by them)
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Had a nice conversation about Some thing with Matías Hall (initiated by me)
+Had a nice conversation about nothing in particular with Matías Hall (initiated by them)
+Had a nice conversation about nothing in particular with Matías Hall (initiated by me)
+Moved from 11 to 24
+Went to sleep
+Woke up
+Moved from 24 to 10
+Ate Food
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 15
+Moved from 15 to 17
+Had a nice conversation about a place with Mary Lopez (initiated by me)
+Had a nice conversation about Some thing with Mary Lopez (initiated by me)
+Moved from 17 to 29
+Had a nice conversation about Some thing with Mary Lopez (initiated by them)
+Went to sleep
+Woke up
+Moved from 29 to 19
+Ate Food
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 82
+Moved from 82 to 55
+Moved from 55 to 73
+Had a nice conversation about Some dude with Elizabeth Moore (initiated by me)
+Had a nice conversation about a place with Elizabeth Moore (initiated by them)
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Moved from 73 to 65
+Had a nice conversation about Some thing with Elizabeth Moore (initiated by them)
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Moved from 65 to 19
+Had a nice conversation about a place with Elizabeth Moore (initiated by them)
+Went to sleep
+Woke up
+Ate Food
+Had a nice conversation about Some dude with Susan Smith (initiated by me)
+Had a nice conversation about nothing in particular with Susan Smith (initiated by them)
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Moved from 81 to 11
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by them)
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Went to sleep
+Woke up
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by me)
+Moved from 11 to 24
+Moved from 24 to 10
+Ate Food
+Moved from 10 to 86
+Had a nice conversation about Some dude with Alejandro Martinez (initiated by me)
+Moved from 86 to 14
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by me)
+Had a nice conversation about Some thing with Alejandro Martinez (initiated by me)
+Had a nice conversation about Some thing with Alejandro Martinez (initiated by me)
+Moved from 14 to 68
+Went to sleep
+Woke up
+Moved from 68 to 15
+Had a nice conversation about nothing in particular with Matías Hall (initiated by them)
+Ate Food
+Had a nice conversation about nothing in particular with Matías Hall (initiated by them)
+Moved from 15 to 17
+Moved from 17 to 29
+Moved from 29 to 15
+Moved from 15 to 0
+Moved from 0 to 36
+Moved from 36 to 28
+Moved from 28 to 9
+Moved from 9 to 95
+Moved from 95 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Had a nice conversation about a place with Mary Lopez (initiated by them)
+Went to sleep
+Woke up
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Ate Food
+Moved from 73 to 65
+Moved from 65 to 19
+Had a nice conversation about Some dude with Alejandro Martinez (initiated by me)
+Moved from 19 to 6
+Moved from 6 to 90
+Went to sleep
+Woke up
+Moved from 90 to 71
+Moved from 71 to 21
+Moved from 21 to 44
+Ate Food
+Moved from 44 to 15
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by them)
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by me)
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by them)
+Moved from 15 to 0
+Moved from 0 to 25
+Moved from 25 to 47
+Moved from 47 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Went to sleep
+Woke up
+Moved from 68 to 15
+Moved from 15 to 0
+Ate Food
+Moved from 0 to 25
+Moved from 25 to 47
+Moved from 47 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Went to sleep
+Woke up
+Moved from 68 to 15
+Moved from 15 to 17
+Moved from 17 to 29
+Moved from 29 to 19
+Ate Food
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Went to sleep
+Woke up
+Moved from 65 to 19
+Moved from 19 to 63
+Ate Food
+Moved from 63 to 44
+Moved from 44 to 15
+Had a nice conversation about nothing in particular with Susan Smith (initiated by them)
+Moved from 15 to 17
+Moved from 17 to 29
+Moved from 29 to 19
+Had a nice conversation about nothing in particular with Matías Hall (initiated by them)
+Moved from 19 to 63
+Went to sleep
+Woke up
+Moved from 63 to 44
+Ate Food
+Moved from 44 to 15
+Moved from 15 to 17
+Moved from 17 to 29
+Moved from 29 to 15
+Moved from 15 to 0
+Moved from 0 to 36
+Had a nice conversation about a place with Susan Smith (initiated by them)
+Moved from 36 to 28
+Moved from 28 to 9
+Moved from 9 to 95
+Moved from 95 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Went to sleep
+Woke up
+Moved from 10 to 86
+Moved from 86 to 14
+Ate Food
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 16
+Moved from 16 to 69
+Moved from 69 to 45
+Moved from 45 to 77
+Went to sleep
+Woke up
+Ate Food
+Moved from 77 to 19
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Had a nice conversation about a place with Amelia Gonzalez (initiated by them)
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by me)
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by them)
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Went to sleep
+Woke up
+Moved from 71 to 83
+Moved from 83 to 6
+Ate Food
+Had a nice conversation about Some thing with Susan Smith (initiated by me)
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 83
+Moved from 83 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Went to sleep
+Woke up
+Ate Food
+Moved from 50 to 42
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by them)
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by me)
+Moved from 73 to 65
+Had a nice conversation about a place with Amelia Gonzalez (initiated by them)
+Had a nice conversation about a place with Amelia Gonzalez (initiated by me)
+Moved from 65 to 19
+Had a nice conversation about Some dude with Elizabeth Brown (initiated by me)
+Had a nice conversation about a place with Elizabeth Brown (initiated by them)
+Had a nice conversation about nothing in particular with Elizabeth Brown (initiated by me)
+Went to sleep
+Woke up
+Ate Food
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Went to sleep
+Woke up
+Had a nice conversation about Some dude with Mary Lopez (initiated by them)
+Had a nice conversation about a place with Mary Lopez (initiated by me)
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by them)
+Had a nice conversation about a place with Mary Lopez (initiated by me)
+Ate Food
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 82
+Moved from 82 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Had a nice conversation about nothing in particular with Charlotte Thomas (initiated by them)
+Had a nice conversation about a place with Charlotte Thomas (initiated by them)
+Had a nice conversation about Some dude with Charlotte Thomas (initiated by them)
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Had a nice conversation about Some thing with Elizabeth Moore (initiated by them)
+Went to sleep
+Woke up
+Had a nice conversation about Some dude with Nicolás Young (initiated by me)
+Moved from 50 to 42
+Had a nice conversation about Some dude with Nicolás Young (initiated by them)
+Moved from 42 to 81
+Moved from 81 to 11
+Had a nice conversation about Some thing with Nicolás Young (initiated by me)
+Ate Food
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Went to sleep
+Woke up
+Ate Food
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Went to sleep
+Woke up
+Moved from 57 to 17
+Moved from 17 to 29
+Ate Food
+Moved from 29 to 15
+Moved from 15 to 17
+Moved from 17 to 84
+Moved from 84 to 13
+Moved from 13 to 83
+Moved from 83 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Went to sleep
+Woke up
+Ate Food
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 15
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by me)
+Moved from 15 to 0
+Moved from 0 to 36
+Moved from 36 to 28
+Went to sleep
+Woke up
+Ate Food
+Moved from 28 to 9
+Moved from 9 to 51
+Moved from 51 to 60
+Moved from 60 to 5
+Moved from 5 to 20
+Moved from 20 to 83
+Had a nice conversation about Some dude with Susan Smith (initiated by them)
+Moved from 83 to 6
+Went to sleep
+Woke up
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Ate Food
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Had a nice conversation about Some dude with Mary Lopez (initiated by them)
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Went to sleep
+Woke up
+Ate Food
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 83
+Had a nice conversation about Some dude with Nicolás Young (initiated by me)
+Had a nice conversation about Some dude with Nicolás Young (initiated by them)
+Moved from 83 to 2
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Had a nice conversation about Some thing with Elizabeth Moore (initiated by them)
+Had a nice conversation about Some dude with Elizabeth Moore (initiated by me)
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by them)
+Moved from 2 to 57
+Moved from 57 to 77
+Went to sleep
+Woke up
+Moved from 77 to 19
+Moved from 19 to 63
+Ate Food
+Moved from 63 to 60
+Moved from 60 to 5
+Had a nice conversation about a place with Susan Smith (initiated by them)
+Had a nice conversation about nothing in particular with Susan Smith (initiated by me)
+Moved from 5 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Went to sleep
+Woke up
+Ate Food
+Moved from 73 to 65
+Moved from 65 to 19
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by them)
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by me)
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by them)
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 82
+Moved from 82 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Went to sleep
+Woke up
+Had a nice conversation about a place with Elizabeth Brown (initiated by me)
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 83
+Moved from 83 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Ate Food
+Moved from 81 to 11
+Went to sleep
+Woke up
+Moved from 11 to 50
+Had a nice conversation about Some dude with Charlotte Thomas (initiated by them)
+Ate Food
+Had a nice conversation about nothing in particular with Charlotte Thomas (initiated by them)
+Had a nice conversation about Some thing with Charlotte Thomas (initiated by them)
+Had a nice conversation about Some thing with Mary Lopez (initiated by me)
+Moved from 50 to 42
+Had a nice conversation about a place with Nicolás Young (initiated by me)
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Had a nice conversation about Some dude with Matías Hall (initiated by me)
+Had a nice conversation about nothing in particular with Matías Hall (initiated by them)
+Had a nice conversation about a place with Matías Hall (initiated by me)
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Had a nice conversation about a place with Matías Hall (initiated by me)
+Moved from 73 to 65
+Went to sleep
+Woke up
+Had a nice conversation about Some dude with Matías Hall (initiated by me)
+Ate Food
+Moved from 65 to 19
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 24
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Moved from 24 to 10
+Went to sleep
+Woke up
+Moved from 10 to 86
+Moved from 86 to 14
+Had a nice conversation about Some thing with Elizabeth Moore (initiated by them)
+Ate Food
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 67
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Moved from 67 to 11
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by them)
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Had a nice conversation about Some thing with Elizabeth Moore (initiated by them)
+Had a nice conversation about a place with Elizabeth Moore (initiated by me)
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by them)
+Moved from 81 to 55
+Moved from 55 to 73
+Went to sleep
+Woke up
+Ate Food
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Had a nice conversation about a place with Elizabeth Brown (initiated by them)
+Moved from 11 to 24
+Went to sleep
+Woke up
+Moved from 24 to 10
+Moved from 10 to 86
+Ate Food
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 67
+Moved from 67 to 11
+Moved from 11 to 24
+Went to sleep
+Woke up
+Ate Food
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 32
+Went to sleep
+Woke up
+Moved from 32 to 43
+Moved from 43 to 0
+Ate Food
+Moved from 0 to 25
+Moved from 25 to 59
+Moved from 59 to 22
+Went to sleep
+Woke up
+Moved from 22 to 21
+Ate Food
+Moved from 21 to 99
+Moved from 99 to 57
+Moved from 57 to 77
+Moved from 77 to 5
+Moved from 5 to 11
+Moved from 11 to 50
+Went to sleep
+Woke up
+Moved from 50 to 42
+Moved from 42 to 81
+Ate Food
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Went to sleep
+Woke up
+Moved from 19 to 6
+Ate Food
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Went to sleep
+Woke up
+Moved from 81 to 11
+Ate Food
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Had a nice conversation about a place with Elizabeth Moore (initiated by me)
+Had a nice conversation about a place with Elizabeth Moore (initiated by them)
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Went to sleep
+Woke up
+Moved from 63 to 60
+Ate Food
+Had a nice conversation about Some thing with Mary Lopez (initiated by them)
+Had a nice conversation about Some dude with Mary Lopez (initiated by me)
+Moved from 60 to 5
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by them)
+Had a nice conversation about a place with Mary Lopez (initiated by me)
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by them)
+Moved from 57 to 17
+Moved from 17 to 84
+Moved from 84 to 13
+Moved from 13 to 87
+Moved from 87 to 17
+Moved from 17 to 84
+Moved from 84 to 13
+Went to sleep
+Woke up
+Ate Food
+Moved from 13 to 83
+Moved from 83 to 2
+Moved from 2 to 57
+Moved from 57 to 77
+Moved from 77 to 19
+Moved from 19 to 6
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by them)
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Moved from 6 to 90
+Moved from 90 to 88
+Moved from 88 to 23
+Moved from 23 to 12
+Moved from 12 to 45
+Went to sleep
+Woke up
+Moved from 45 to 77
+Moved from 77 to 19
+Ate Food
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Went to sleep
+Woke up
+Had a nice conversation about nothing in particular with Elizabeth Brown (initiated by them)
+Ate Food
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 64
+Moved from 64 to 16
+Moved from 16 to 69
+Moved from 69 to 45
+Moved from 45 to 77
+Went to sleep
+Woke up
+Moved from 77 to 5
+Moved from 5 to 11
+Moved from 11 to 50
+Ate Food
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Went to sleep
+Woke up
+Ate Food
+Had a nice conversation about Some thing with Nicolás Young (initiated by me)
+Moved from 63 to 44
+Moved from 44 to 82
+Moved from 82 to 91
+Moved from 91 to 40
+Moved from 40 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Went to sleep
+Woke up
+Ate Food
+Moved from 5 to 20
+Moved from 20 to 83
+Moved from 83 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 21
+Went to sleep
+Woke up
+Ate Food
+Moved from 21 to 44
+Had a nice conversation about nothing in particular with Charlotte Thomas (initiated by them)
+Moved from 44 to 82
+Moved from 82 to 91
+Moved from 91 to 40
+Moved from 40 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Went to sleep
+Woke up
+Ate Food
+Moved from 42 to 81
+Moved from 81 to 55
+Had a nice conversation about nothing in particular with Charlotte Thomas (initiated by them)
+Moved from 55 to 73
+Moved from 73 to 65
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by them)
+Moved from 65 to 19
+Moved from 19 to 63
+Had a nice conversation about a place with Mary Lopez (initiated by me)
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by them)
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Went to sleep
+Woke up
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Ate Food
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Had a nice conversation about nothing in particular with Nicolás Young (initiated by me)
+Had a nice conversation about Some dude with Nicolás Young (initiated by them)
+Had a nice conversation about a place with Nicolás Young (initiated by me)
+Moved from 19 to 6
+Went to sleep
+Woke up
+Moved from 6 to 50
+Moved from 50 to 42
+Ate Food
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Had a nice conversation about nothing in particular with Matías Hall (initiated by them)
+Moved from 19 to 63
+Moved from 63 to 60
+Had a nice conversation about a place with Matías Hall (initiated by me)
+Moved from 60 to 5
+Went to sleep
+Woke up
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by them)
+Ate Food
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by them)
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by me)
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by me)
+Moved from 5 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 68
+Went to sleep
+Woke up
+Moved from 68 to 32
+Ate Food
+Moved from 32 to 43
+Moved from 43 to 0
+Moved from 0 to 25
+Moved from 25 to 59
+Moved from 59 to 22
+Went to sleep
+Woke up
+Moved from 22 to 65
+Moved from 65 to 19
+Ate Food
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Had a nice conversation about a place with Amelia Gonzalez (initiated by them)
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by me)
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by them)
+Moved from 5 to 11
+Moved from 11 to 50
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by me)
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by them)
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by me)
+Moved from 50 to 42
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Went to sleep
+Woke up
+Moved from 42 to 81
+Ate Food
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by me)
+Had a nice conversation about a place with Mary Lopez (initiated by them)
+Had a nice conversation about Some dude with Mary Lopez (initiated by me)
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by them)
+Had a nice conversation about a place with Mary Lopez (initiated by me)
+Had a nice conversation about a place with Charlotte Thomas (initiated by them)
+Moved from 81 to 55
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by me)
+Moved from 55 to 73
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by them)
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by me)
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by them)
+Moved from 73 to 65
+Had a nice conversation about Some thing with Mary Lopez (initiated by me)
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by them)
+Had a nice conversation about a place with Mary Lopez (initiated by me)
+Moved from 65 to 19
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by them)
+Had a nice conversation about Some dude with Mary Lopez (initiated by me)
+Had a nice conversation about Some thing with Mary Lopez (initiated by them)
+Moved from 19 to 63
+Moved from 63 to 44
+Went to sleep
+Woke up
+Ate Food
+Moved from 44 to 82
+Moved from 82 to 55
+Moved from 55 to 73
+Had a nice conversation about Some thing with Alejandro Martinez (initiated by me)
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Went to sleep
+Woke up
+Moved from 63 to 60
+Had a nice conversation about Some dude with Charlotte Thomas (initiated by them)
+Moved from 60 to 5
+Had a nice conversation about Some thing with Alejandro Martinez (initiated by me)
+Had a nice conversation about a place with Charlotte Thomas (initiated by them)
+Had a nice conversation about a place with Charlotte Thomas (initiated by them)
+Moved from 5 to 11
+Had a nice conversation about Some thing with Amelia Gonzalez (initiated by them)
+Ate Food
+Moved from 11 to 50
+Had a nice conversation about Some dude with Elizabeth Moore (initiated by them)
+Had a nice conversation about a place with Elizabeth Moore (initiated by me)
+Had a nice conversation about Some dude with Elizabeth Moore (initiated by them)
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Went to sleep
+Woke up
+Had a nice conversation about a place with Elizabeth Moore (initiated by them)
+Had a nice conversation about Some dude with Elizabeth Moore (initiated by me)
+Moved from 50 to 42
+Had a nice conversation about a place with Elizabeth Moore (initiated by them)
+Had a nice conversation about Some thing with Elizabeth Moore (initiated by me)
+Had a nice conversation about Some thing with Elizabeth Moore (initiated by them)
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by me)
+Had a nice conversation about a place with Alejandro Martinez (initiated by me)
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Had a nice conversation about Some dude with Elizabeth Moore (initiated by them)
+Had a nice conversation about a place with Elizabeth Brown (initiated by them)
+Had a nice conversation about Some dude with Elizabeth Moore (initiated by me)
+Had a nice conversation about Some dude with Elizabeth Moore (initiated by them)
+Ate Food
+Moved from 73 to 65
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by them)
+Had a nice conversation about Some dude with Elizabeth Moore (initiated by me)
+Had a nice conversation about a place with Mary Lopez (initiated by me)
+Moved from 65 to 19
+Went to sleep
+Woke up
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Ate Food
+Moved from 81 to 55
+Moved from 55 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Had a nice conversation about Some dude with Mary Lopez (initiated by them)
+Moved from 19 to 6
+Moved from 6 to 90
+Went to sleep
+Woke up
+Moved from 90 to 71
+Ate Food
+Moved from 71 to 21
+Moved from 21 to 44
+Moved from 44 to 82
+Moved from 82 to 91
+Went to sleep
+Woke up
+Ate Food
+Moved from 91 to 40
+Moved from 40 to 63
+Had a nice conversation about a place with Nicolás Young (initiated by me)
+Moved from 63 to 60
+Moved from 60 to 5
+Went to sleep
+Woke up
+Moved from 5 to 11
+Moved from 11 to 50
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by them)
+Ate Food
+Had a nice conversation about a place with Mary Lopez (initiated by them)
+Moved from 50 to 42
+Had a nice conversation about Some dude with Mary Lopez (initiated by me)
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Went to sleep
+Woke up
+Moved from 10 to 86
+Ate Food
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 15
+Moved from 15 to 0
+Went to sleep
+Woke up
+Ate Food
+Moved from 0 to 25
+Moved from 25 to 59
+Moved from 59 to 22
+Moved from 22 to 65
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Had a nice conversation about nothing in particular with Elizabeth Brown (initiated by them)
+Moved from 73 to 65
+Had a nice conversation about nothing in particular with Elizabeth Brown (initiated by me)
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by them)
+Had a nice conversation about Some dude with Elizabeth Brown (initiated by me)
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by them)
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 50
+Went to sleep
+Woke up
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by me)
+Had a nice conversation about Some dude with Elizabeth Brown (initiated by them)
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Ate Food
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Went to sleep
+Woke up
+Moved from 42 to 81
+Ate Food
+Had a nice conversation about a place with Elizabeth Brown (initiated by me)
+Had a nice conversation about a place with Elizabeth Brown (initiated by them)
+Had a nice conversation about a place with Elizabeth Brown (initiated by me)
+Had a nice conversation about a place with Elizabeth Brown (initiated by them)
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Had a nice conversation about nothing in particular with Nicolás Young (initiated by me)
+Had a nice conversation about Some thing with Nicolás Young (initiated by them)
+Moved from 42 to 81
+Had a nice conversation about Some thing with Nicolás Young (initiated by me)
+Had a nice conversation about a place with Nicolás Young (initiated by them)
+Moved from 81 to 55
+Had a nice conversation about a place with Nicolás Young (initiated by me)
+Moved from 55 to 73
+Moved from 73 to 65
+Went to sleep
+Woke up
+Moved from 65 to 19
+Moved from 19 to 6
+Ate Food
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 21
+Moved from 21 to 99
+Moved from 99 to 62
+Went to sleep
+Woke up
+Ate Food
+Moved from 62 to 93
+Moved from 93 to 98
+Moved from 98 to 98
+Moved from 98 to 98
+Moved from 98 to 47
+Moved from 47 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 32
+Moved from 32 to 43
+Went to sleep
+Woke up
+Moved from 43 to 0
+Moved from 0 to 25
+Moved from 25 to 59
+Moved from 59 to 22
+Ate Food
+Moved from 22 to 65
+Moved from 65 to 19
+Had a nice conversation about nothing in particular with Amelia Gonzalez (initiated by me)
+Moved from 19 to 63
+Moved from 63 to 44
+Moved from 44 to 15
+Moved from 15 to 17
+Had a nice conversation about Some thing with Susan Smith (initiated by me)
+Moved from 17 to 29
+Moved from 29 to 15
+Moved from 15 to 0
+Moved from 0 to 36
+Moved from 36 to 28
+Moved from 28 to 9
+Moved from 9 to 51
+Went to sleep
+Woke up
+Moved from 51 to 36
+Ate Food
+Moved from 36 to 73
+Moved from 73 to 65
+Moved from 65 to 19
+Moved from 19 to 63
+Moved from 63 to 60
+Went to sleep
+Woke up
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 24
+Ate Food
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 15
+Moved from 15 to 17
+Moved from 17 to 29
+Moved from 29 to 15
+Moved from 15 to 0
+Moved from 0 to 36
+Moved from 36 to 28
+Went to sleep
+Woke up
+Moved from 28 to 9
+Moved from 9 to 95
+Ate Food
+Moved from 95 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Went to sleep
+Woke up
+Ate Food
+Moved from 26 to 64
+Moved from 64 to 16
+Moved from 16 to 19
+Moved from 19 to 6
+Went to sleep
+Woke up
+Moved from 6 to 90
+Moved from 90 to 88
+Ate Food
+Moved from 88 to 9
+Moved from 9 to 51
+Moved from 51 to 36
+Moved from 36 to 73
+Went to sleep
+Woke up
+Ate Food
+Moved from 73 to 65
+Had a nice conversation about Some dude with Mary Lopez (initiated by me)
+Had a nice conversation about Some dude with Mary Lopez (initiated by them)
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by me)
+Had a nice conversation about Some thing with Mary Lopez (initiated by them)
+Had a nice conversation about nothing in particular with Mary Lopez (initiated by me)
+Moved from 65 to 19
+Had a nice conversation about Some dude with Mary Lopez (initiated by me)
+Had a nice conversation about Some thing with Mary Lopez (initiated by them)
+Had a nice conversation about Some dude with Mary Lopez (initiated by me)
+Had a nice conversation about Some thing with Mary Lopez (initiated by them)
+Moved from 19 to 6
+Moved from 6 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 55
+Moved from 55 to 73
+Went to sleep
+Woke up
+Moved from 73 to 65
+Ate Food
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 21
+Moved from 21 to 44
+Moved from 44 to 15
+Moved from 15 to 0
+Went to sleep
+Woke up
+Ate Food
+Moved from 0 to 36
+Moved from 36 to 28
+Moved from 28 to 9
+Moved from 9 to 95
+Went to sleep
+Woke up
+Moved from 95 to 14
+Ate Food
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 15
+Moved from 15 to 0
+Moved from 0 to 25
+Moved from 25 to 59
+Moved from 59 to 22
+Went to sleep
+Woke up
+Moved from 22 to 21
+Ate Food
+Moved from 21 to 44
+Moved from 44 to 82
+Moved from 82 to 55
+Had a nice conversation about nothing in particular with Elizabeth Moore (initiated by them)
+Moved from 55 to 73
+Moved from 73 to 65
+Had a nice conversation about nothing in particular with Matías Hall (initiated by them)
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 90
+Moved from 90 to 71
+Moved from 71 to 83
+Went to sleep
+Woke up
+Moved from 83 to 6
+Ate Food
+Moved from 6 to 90
+Moved from 90 to 88
+Moved from 88 to 23
+Moved from 23 to 12
+Moved from 12 to 95
+Moved from 95 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Went to sleep
+Woke up
+Moved from 86 to 14
+Ate Food
+Had a nice conversation about Some dude with Mary Lopez (initiated by them)
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 15
+Moved from 15 to 17
+Had a nice conversation about a place with Elizabeth Moore (initiated by me)
+Had a nice conversation about a place with Elizabeth Moore (initiated by them)
+Moved from 17 to 84
+Moved from 84 to 80
+Moved from 80 to 81
+Moved from 81 to 11
+Had a nice conversation about a place with Charlotte Thomas (initiated by them)
+Had a nice conversation about nothing in particular with Charlotte Thomas (initiated by me)
+Had a nice conversation about nothing in particular with Charlotte Thomas (initiated by me)
+Went to sleep
+Woke up
+Moved from 11 to 24
+Moved from 24 to 10
+Ate Food
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 26
+Moved from 26 to 68
+Moved from 68 to 32
+Had a nice conversation about Some dude with Charlotte Thomas (initiated by me)
+Had a nice conversation about Some thing with Charlotte Thomas (initiated by me)
+Moved from 32 to 43
+Moved from 43 to 0
+Went to sleep
+Woke up
+Moved from 0 to 25
+Ate Food
+Moved from 25 to 47
+Moved from 47 to 86
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 15
+Moved from 15 to 0
+Moved from 0 to 36
+Moved from 36 to 73
+Had a nice conversation about Some thing with Elizabeth Moore (initiated by me)
+Moved from 73 to 65
+Moved from 65 to 19
+Went to sleep
+Woke up
+Ate Food
+Moved from 19 to 63
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Had a nice conversation about nothing in particular with Charlotte Thomas (initiated by me)
+Had a nice conversation about Some thing with Charlotte Thomas (initiated by them)
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Moved from 81 to 11
+Had a nice conversation about a place with Charlotte Thomas (initiated by me)
+Had a nice conversation about a place with Charlotte Thomas (initiated by them)
+Went to sleep
+Woke up
+Ate Food
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 32
+Moved from 32 to 43
+Moved from 43 to 0
+Moved from 0 to 36
+Moved from 36 to 73
+Moved from 73 to 65
+Went to sleep
+Woke up
+Had a nice conversation about a place with Alejandro Martinez (initiated by me)
+Ate Food
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by them)
+Had a nice conversation about Some dude with Amelia Gonzalez (initiated by me)
+Moved from 65 to 19
+Moved from 19 to 63
+Had a nice conversation about Some dude with Alejandro Martinez (initiated by them)
+Moved from 63 to 60
+Moved from 60 to 5
+Moved from 5 to 11
+Moved from 11 to 24
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Went to sleep
+Woke up
+Had a nice conversation about Some dude with Alejandro Martinez (initiated by me)
+Had a nice conversation about a place with Alejandro Martinez (initiated by them)
+Ate Food
+Had a nice conversation about Some thing with Matías Hall (initiated by them)
+Moved from 68 to 15
+Had a nice conversation about Some dude with Alejandro Martinez (initiated by them)
+Had a nice conversation about Some dude with Matías Hall (initiated by me)
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by them)
+Had a nice conversation about a place with Matías Hall (initiated by them)
+Had a nice conversation about a place with Matías Hall (initiated by me)
+Moved from 15 to 17
+Had a nice conversation about nothing in particular with Alejandro Martinez (initiated by them)
+Moved from 17 to 84
+Moved from 84 to 80
+Moved from 80 to 81
+Moved from 81 to 11
+Went to sleep
+Woke up
+Moved from 11 to 24
+Ate Food
+Moved from 24 to 10
+Moved from 10 to 86
+Moved from 86 to 14
+Moved from 14 to 68
+Moved from 68 to 32
+Moved from 32 to 43
+Moved from 43 to 0
+Moved from 0 to 36
+Moved from 36 to 73
+Went to sleep
+Woke up
+Moved from 73 to 65
+Had a nice conversation about a place with Alejandro Martinez (initiated by me)
+Had a nice conversation about Some thing with Alejandro Martinez (initiated by them)
+Had a nice conversation about a place with Alejandro Martinez (initiated by me)
+Ate Food
+Moved from 65 to 19
+Moved from 19 to 6
+Moved from 6 to 50
+Had a nice conversation about nothing in particular with Elizabeth Brown (initiated by them)
+Moved from 50 to 42
+Moved from 42 to 81
+Had a nice conversation about a place with Susan Smith (initiated by me)
+Had a nice conversation about Some thing with Susan Smith (initiated by me)
+Moved from 81 to 11
+Moved from 11 to 50
+Moved from 50 to 42
+Moved from 42 to 81
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by them)
+Had a nice conversation about Some thing with Elizabeth Brown (initiated by me)
+Had a nice conversation about Some dude with Elizabeth Brown (initiated by them)
+Had a nice conversation about a place with Elizabeth Brown (initiated by me)
+Went to sleep
