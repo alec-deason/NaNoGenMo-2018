@@ -39,10 +39,13 @@ trait Event {
 
 #[derive(Clone)]
 struct DummyEvent {
+    agent: AgentId,
     message: String,
 }
 impl Event for DummyEvent {
-    fn apply(&self, _: &mut World) { }
+    fn apply(&self, world: &mut World) {
+        world.agents[self.agent].events.push(Box::new(self.clone()));
+    }
 
     fn to_string(&self, _: &World) -> String {
         self.message.clone()
