@@ -4,14 +4,16 @@ mod agent;
 
 use rand::{Rng};
 use rand::seq::IteratorRandom;
+use rand::seq::SliceRandom;
 use std::collections::HashMap;
 
 use self::agent::{Agent, AgentId};
 
 pub struct World {
     pub time: f64,
-    agents: Vec<Agent>,
+    pub agents: Vec<Agent>,
     locations: Vec<Location>,
+    pub metrics: HashMap<&'static str, i32>,
 }
 
 type ItemId = usize;
@@ -31,8 +33,8 @@ struct Location {
 }
 
 trait Event {
-    fn apply(&self, world: &mut World);
-    fn to_string(&self, world: &World) -> String;
+    fn apply(&self, world: &mut World) { }
+    fn to_string(&self, world: &World) -> String { "".to_string() }
 }
 
 
@@ -46,15 +48,13 @@ impl Event for DummyEvent {
     fn apply(&self, world: &mut World) {
         world.agents[self.agent].events.push(Box::new(self.clone()));
     }
-
     fn to_string(&self, _: &World) -> String {
         self.message.clone()
     }
 }
 
 impl World {
-    pub fn new() -> World {
-        let scale:i32 = 10;
+    pub fn new(scale:i32) -> World {
         let bushyness:i32 = 10;
         let location_count:i32 = scale*10;
         let agent_count:i32 = scale;
@@ -63,23 +63,25 @@ impl World {
 
         let mut w = World {
             time: 0.0,
-            agents: Vec::new(),
-            locations: Vec::new(),
+            agents: Vec::with_capacity(agent_count as usize),
+            locations: Vec::with_capacity(location_count as usize),
+            metrics: HashMap::new(),
         };
 
+        let location_ids:Vec<LocationId> = (0..location_count as LocationId).collect();
         for id in 0..location_count {
             let exit_count = rng.gen_range(1, bushyness) as usize;
-            let exits = (0..location_count as LocationId).choose_multiple(&mut rng, exit_count);
+            let exits = location_ids.choose_multiple(&mut rng, exit_count);
 
             let mut location = Location::new(id as LocationId);
             location.exits.extend(exits);
 
             w.locations.push(location);
         }
-        
+
         for id in 0..agent_count {
             let mut a = Agent::new(id as AgentId);
-            a.location = (0..w.locations.len()).choose(&mut rng).unwrap_or(0) as LocationId;
+            a.location = *location_ids.choose(&mut rng).unwrap_or(&(0 as LocationId));
             w.agents.push(a);
         }
 
