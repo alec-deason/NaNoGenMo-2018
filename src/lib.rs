@@ -56,7 +56,7 @@ impl Event for DummyEvent {
 impl World {
     pub fn new(scale:i32) -> World {
         let bushyness:i32 = 10;
-        let location_count:i32 = scale*10;
+        let location_count:i32 = scale*20;
         let agent_count:i32 = scale;
 
         let mut rng = rand::thread_rng();
@@ -68,6 +68,8 @@ impl World {
             metrics: HashMap::new(),
         };
 
+        let mut item_id = 0;
+
         let location_ids:Vec<LocationId> = (0..location_count as LocationId).collect();
         for id in 0..location_count {
             let exit_count = rng.gen_range(1, bushyness) as usize;
@@ -75,6 +77,15 @@ impl World {
 
             let mut location = Location::new(id as LocationId);
             location.exits.extend(exits);
+
+            for _ in 0..rng.gen_range(0, 10) {
+                location.items.insert(item_id, Item {
+                    id: item_id,
+                    name: "carrot".to_string(),
+                    food_value: 10.0,
+                });
+                item_id += 1;
+            }
 
             w.locations.push(location);
         }

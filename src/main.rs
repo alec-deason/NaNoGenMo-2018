@@ -10,7 +10,7 @@ use std::time::SystemTime;
 fn main() {
     let start = SystemTime::now();
 
-    let mut w = novel_gen::World::new(50);
+    let mut w = novel_gen::World::new(100);
     while w.time < 180.0*24.0 {
         w.step_simulation();
         eprintln!("{}", w.time);
