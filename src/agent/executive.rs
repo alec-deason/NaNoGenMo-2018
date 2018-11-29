@@ -1,6 +1,6 @@
 use rand::seq::SliceRandom;
 
-use super::{Agent, World, Event};
+use super::{Agent, ItemId, World, Event};
 use super::super::DummyEvent;
 use super::events;
 use super::daemons;
@@ -15,7 +15,7 @@ pub trait Strategy {
 }
 
 pub struct FindSolitude {
-    payload: Vec<Box<dyn Event>>,
+    payload: fn(agent: &Agent, world: &World) -> Vec<Box<dyn Event>>,
 }
 
 impl Strategy for FindSolitude {
@@ -27,7 +27,7 @@ impl Strategy for FindSolitude {
                 wander(agent, world),
             ]}
         } else {
-            StrategyState::Complete { events: self.payload.drain(..).collect() }
+            StrategyState::Complete { events: (self.payload)(agent, world) }
         }
     }
 }
@@ -38,18 +38,15 @@ pub fn wander(agent: &Agent, world: &World) -> Box<dyn Event> {
     Box::new(events::MoveEvent { start: agent.location, end: new_loc, agent: agent.id })
 }
 
-pub struct FindFood { }
+pub struct FindFood {
+    payload: fn(item: &ItemId, agent: &Agent, world: &World) -> Vec<Box<dyn Event>>,
+}
 
 impl Strategy for FindFood {
     fn step_simulation(&mut self, agent: &Agent, world: &World) -> StrategyState {
         match agent.inventory.iter().find(|i| i.1.food_value > 0.0) {
             Some((id, _)) => {
-                StrategyState::Complete { events: vec![
-                    Box::new(events::EatEvent {
-                        agent: agent.id,
-                        item: *id,
-                    }),
-                ]}
+                StrategyState::Complete { events: (self.payload)(id, agent, world) }
             },
             None => {
                 let location = &world.locations[agent.location];
@@ -96,16 +93,31 @@ impl daemons::Daemon for Executive {
             match goals.choose_weighted(&mut rng, |k| k.1) {
                 Ok((k, _)) => {
                     match k {
-                        Goal::FindFood => { mind.current_goal = Some((**k, Box::new(FindFood {}))); },
+                        Goal::FindFood => { mind.current_goal = Some((**k, Box::new(FindFood {
+                            payload: |item, agent, _| {
+                                vec![
+                                    Box::new(events::EatEvent {
+                                        agent: agent.id,
+                                        item: *item,
+                                    }),
+                                ]
+                            }
+                        }))); },
                         Goal::Shit => {
-                            mind.current_goal = Some((**k, Box::new(FindSolitude { payload: vec![
-                                Box::new(events::DefecateEvent { agent: agent.id }),
-                            ]})));
+                            mind.current_goal = Some((**k, Box::new(FindSolitude { payload: 
+                                |agent, _| {
+                                    vec![
+                                        Box::new(events::DefecateEvent { agent: agent.id }),
+                                    ]}
+                                })));
                         },
                         Goal::Rest => {
-                            mind.current_goal = Some((**k, Box::new(FindSolitude { payload: vec![
-                                Box::new(events::NapEvent { agent: agent.id }),
-                            ]})));
+                            mind.current_goal = Some((**k, Box::new(FindSolitude { payload:
+                                |agent, _| {
+                                    vec![
+                                        Box::new(events::NapEvent { agent: agent.id }),
+                                    ]}
+                                })));
                         }
                     };
                     Some(1.0)
