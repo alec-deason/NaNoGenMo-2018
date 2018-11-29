@@ -21,7 +21,7 @@ impl Event for MoveEvent {
 
     fn to_string(&self, world: &World) -> String {
         let start = &world.locations[self.start].name;
-        let end = &world.locations[self.start].name;
+        let end = &world.locations[self.end].name;
 
         format!("Moved from {} to {}.", start, end).to_string()
     }
