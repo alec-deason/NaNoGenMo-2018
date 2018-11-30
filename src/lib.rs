@@ -12,7 +12,7 @@ use self::agent::{Agent, AgentId};
 pub struct World {
     pub time: f64,
     pub agents: Vec<Agent>,
-    locations: Vec<Location>,
+    pub locations: Vec<Location>,
     pub metrics: HashMap<&'static str, i32>,
 }
 
@@ -24,12 +24,12 @@ struct Item {
 }
 
 type LocationId = usize;
-struct Location {
-    id: LocationId,
-    name: String,
+pub struct Location {
+    pub id: LocationId,
+    pub name: String,
     agents: Vec<AgentId>,
     items: HashMap<ItemId, Item>,
-    exits: Vec<LocationId>,
+    pub exits: Vec<LocationId>,
 }
 
 trait Event {

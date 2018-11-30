@@ -1,34 +1,26 @@
 use std::borrow::Cow;
 use std::io::Write;
-use std::cell::RefCell;
-use std::rc::Rc;
 use std::collections::HashMap;
 
 use novel_gen::{Location, World};
 
 type Nd = isize;
 type Ed = (isize,isize);
-struct Edges(Vec<Ed>, HashMap<isize, f64>);
+struct Edges(Vec<Ed>, HashMap<isize, bool>);
 
-pub fn render_to<W: Write>(locations: &Vec<Rc<Location>>, world: &World, output: &mut W) {
+pub fn render_to<W: Write>(locations: &Vec<Location>, world: &World, output: &mut W) {
     let mut edges = Vec::new();
     let mut labels = HashMap::with_capacity(locations.len());
 
     for loc in locations {
-        let at = ((loc.agent_time.get() / world.agent_time) * 10000.0) as u64;
+        let at = loc.name.contains("village");
         labels.insert(loc.id as isize, at);
-        for other in loc.exits.borrow().iter() {
-            edges.push((loc.id as isize, other.id as isize));
+        for other in loc.exits.iter() {
+            edges.push((loc.id as isize, *other as isize));
         }
     }
 
-    let mut real_labels = HashMap::with_capacity(labels.len());
-    let max = *labels.values().max().unwrap() as f64;
-    for (id, at) in &labels {
-        let at = *at as f64 / max;
-        real_labels.insert(*id, at);
-    }
-    let edges = Edges(edges, real_labels);
+    let edges = Edges(edges, labels);
     dot::render(&edges, output).unwrap()
 }
 
@@ -45,7 +37,10 @@ impl<'a> dot::Labeller<'a, Nd, Ed> for Edges {
 
     fn node_color(&'a self, n: &Nd) -> Option<dot::LabelText<'a>> {
         let labels = &self.1;
-        Some(dot::LabelText::label(format!("0.0 1.0 {}", labels[n]).to_string()))
+        let red = if labels[n] { "ff" } else { "00" };
+        let green = if labels[n] { "00" } else { "ff" };
+        let l = format!("#{}{}00", red, green).to_string();
+        Some(dot::LabelText::label(l))
     }
 }
 

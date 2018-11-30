@@ -2,15 +2,15 @@ extern crate novel_gen;
 
 use std::time::SystemTime;
 
-//use std::fs::File;
+use std::fs::File;
 
 //mod social_graph;
-//mod location_graph;
+mod location_graph;
 
 fn main() {
     let start = SystemTime::now();
 
-    let mut w = novel_gen::World::new(10);
+    let mut w = novel_gen::World::new(6);
     while w.time < 180.0*24.0 {
         w.step_simulation();
         eprintln!("{}", w.time);
@@ -29,6 +29,6 @@ fn main() {
     }
    //let mut f = File::create("social.dot").unwrap();
    // social_graph::render_to(&w.agents, &mut f);
-   // let mut f = File::create("location.dot").unwrap();
-    //location_graph::render_to(&w.locations, &w, &mut f);
+   let mut f = File::create("location.dot").unwrap();
+   location_graph::render_to(&w.locations, &w, &mut f);
 }
