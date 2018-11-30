@@ -1,6 +1,6 @@
 use rand::seq::SliceRandom;
 
-use super::{Agent, ItemId, World, Event};
+use super::{Agent, Mind, ItemId, World, Event};
 use super::super::DummyEvent;
 use super::events;
 use super::daemons;
@@ -81,17 +81,17 @@ pub enum Goal {
 
 impl Eq for Goal {}
 
-pub struct Executive;
-impl daemons::Daemon for Executive {
-    fn step_simulation(&self, agent: &Agent, _: &World) -> Option<f64> {
-        let mut rng = rand::thread_rng();
-
-        let mut mind = agent.mind.borrow_mut();
-
-        if mind.current_goal.is_none() {
-            let goals: Vec<(&Goal, &f64)> = mind.goals.iter().collect();
-            match goals.choose_weighted(&mut rng, |k| k.1) {
-                Ok((k, _)) => {
+fn choose_goal(mind: &mut Mind) -> bool {
+    let mut rng = rand::thread_rng();
+    let goals: Vec<(&Goal, &f64)> = mind.goals.iter().collect();
+    match goals.choose_weighted(&mut rng, |k| k.1) {
+        Ok((k, _)) => {
+            match mind.paused_goals.iter().position(|i| i.0 == **k) {
+                Some(i) => {
+                    mind.current_goal = Some(mind.paused_goals.remove(i));
+                    true
+                },
+                None => {
                     match k {
                         Goal::FindFood => { mind.current_goal = Some((**k, Box::new(FindFood {
                             payload: |item, agent, _| {
@@ -120,11 +120,38 @@ impl daemons::Daemon for Executive {
                                 })));
                         }
                     };
-                    Some(1.0)
+                    true
                 },
-                Err(_) => None,
+            }
+        },
+        Err(_) => false,
+    }
+}
+pub struct Executive;
+impl daemons::Daemon for Executive {
+    fn step_simulation(&self, agent: &Agent, _: &World) -> Option<f64> {
+        let mut rng = rand::thread_rng();
+
+        let mut mind = agent.mind.borrow_mut();
+
+        if mind.current_goal.is_none() {
+            if mind.paused_goals.len() > 0 {
+                let idxs:Vec<usize> = (0..mind.paused_goals.len()).into_iter().collect();
+                let restart_goal = idxs.choose_weighted(&mut rng, |k| mind.goals[&mind.paused_goals[*k].0]).unwrap();
+                mind.current_goal = Some(mind.paused_goals.remove(*restart_goal));
+                Some(1.0)
+            } else {
+                if choose_goal(&mut mind) {
+                    Some(1.0)
+                } else {
+                    None
+                }
             }
         } else {
+            let max_goal = mind.goals.values().cloned().fold(-1./0. , f64::max);
+            if max_goal > mind.goals[&mind.current_goal.as_ref().unwrap().0] * 1.20 {
+                choose_goal(&mut mind);
+            }
             Some(1.0)
         }
     }

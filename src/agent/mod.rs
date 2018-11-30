@@ -92,6 +92,7 @@ impl Health {
 struct Mind {
     goals: HashMap<executive::Goal, f64>,
     current_goal: Option<(executive::Goal, Box<dyn executive::Strategy>)>,
+    paused_goals: Vec<(executive::Goal, Box<dyn executive::Strategy>)>,
     agitation: f64,
     cheer: f64,
 }
@@ -101,6 +102,7 @@ impl Mind {
         Mind {
             goals: HashMap::with_capacity(100),
             current_goal: None,
+            paused_goals: Vec::with_capacity(5),
             agitation: 0.0,
             cheer: 1.0,
         }
