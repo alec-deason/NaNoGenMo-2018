@@ -17,6 +17,11 @@ impl Event for MoveEvent {
         world.locations[self.end].agents.push(self.agent);
         agent.location = self.end;
         agent.events.push(Box::new(*self));
+
+        let mut mind = agent.mind.borrow_mut();
+        let cheer = mind.cheer;
+        let opinion = mind.opinions_on_places.entry(self.start).or_insert(0.0);
+        *opinion += cheer / 10.0
     }
 
     fn to_string(&self, world: &World) -> String {
@@ -78,8 +83,10 @@ impl Event for EatEvent {
                 let mut health = agent.health.borrow_mut();
                 health.hunger = (health.hunger - item.food_value).max(0.0);
 
-                let mut mind = agent.mind.borrow_mut();
-                mind.goals.remove(&executive::Goal::FindFood);
+                if health.hunger < 5.0 {
+                    let mut mind = agent.mind.borrow_mut();
+                    mind.goals.remove(&executive::Goal::FindFood);
+                }
             },
             None => {
                 agent.events.push(Box::new(DummyEvent {
@@ -104,13 +111,72 @@ impl Event for NapEvent {
         let agent = &mut world.agents[self.agent];
         agent.events.push(Box::new(self.clone()));
         let mut health = agent.health.borrow_mut();
-        health.sleepiness = 0.0;
-
-        let mut mind = agent.mind.borrow_mut();
-        mind.goals.remove(&executive::Goal::Rest);
+        health.awake = false;
     }
     fn to_string(&self, world: &World) -> String {
-        format!("Took a nap.").to_string()
+        format!("Went to sleep.").to_string()
+    }
+}
+
+#[derive(Copy, Clone)]
+pub struct WakeEvent {
+    pub agent: AgentId,
+}
+impl Event for WakeEvent {
+    fn apply(&self, world: &mut World) {
+        let agent = &mut world.agents[self.agent];
+        agent.events.push(Box::new(self.clone()));
+        let mut health = agent.health.borrow_mut();
+        health.awake = true;
+    }
+    fn to_string(&self, world: &World) -> String {
+        format!("Woke up.").to_string()
+    }
+}
+
+#[derive(Copy, Clone)]
+pub struct MeetEvent {
+    pub agent: AgentId,
+    pub other: AgentId,
+}
+impl Event for MeetEvent {
+    fn apply(&self, world: &mut World) {
+        {
+            let agent = &mut world.agents[self.agent];
+            agent.events.push(Box::new(self.clone()));
+            let mut mind = agent.mind.borrow_mut();
+            let cheer = mind.cheer;
+            let o = mind.opinions_on_others.entry(self.other).or_insert(0.0);
+            *o += cheer;
+        }
+
+        {
+            let agent = &mut world.agents[self.other];
+            let mut mind = agent.mind.borrow_mut();
+            let cheer = mind.cheer;
+            let o = mind.opinions_on_others.entry(self.agent).or_insert(0.0);
+            *o += cheer;
+        }
+    }
+    fn to_string(&self, world: &World) -> String {
+        let other = &world.agents[self.other];
+        format!("Met {}", other.name).to_string()
+    }
+}
+
+#[derive(Copy, Clone)]
+pub struct DieEvent {
+    pub agent: AgentId,
+}
+impl Event for DieEvent {
+    fn apply(&self, world: &mut World) {
+        let agent = &mut world.agents[self.agent];
+        agent.events.push(Box::new(self.clone()));
+        let mut health = agent.health.borrow_mut();
+        health.alive = false
+    }
+    fn to_string(&self, world: &World) -> String {
+        format!("Died.").to_string()
     }
 }
 

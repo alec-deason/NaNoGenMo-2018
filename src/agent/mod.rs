@@ -1,4 +1,5 @@
 mod events;
+mod names;
 mod executive;
 mod daemons;
 
@@ -11,14 +12,16 @@ use super::{Event, Item, ItemId, World, LocationId};
 
 pub type AgentId = usize;
 pub struct Agent {
-    id: AgentId,
-    cheer: f64,
+    pub id: AgentId,
+    pub name: String,
     pub location: usize,
     pub events: Vec<Box<dyn Event>>,
     inventory: HashMap<ItemId, Item>,
 
-    health: RefCell<Health>,
+    pub health: RefCell<Health>,
     mind: RefCell<Mind>,
+
+    pub total_time: Cell<f64>,
 
     daemons: Vec<Box<dyn daemons::Daemon>>,
 }
@@ -27,7 +30,8 @@ impl Agent {
     pub fn new(id: AgentId) -> Agent {
         Agent {
             id: id,
-            cheer: 0.0,
+            name: names::male_name(),
+            total_time: Cell::new(0.0),
             location: 0,
             events: Vec::with_capacity(1000),
             inventory: HashMap::with_capacity(10),
@@ -36,10 +40,12 @@ impl Agent {
             mind: RefCell::new(Mind::new()),
             
             daemons: vec![
-//                Box::new(Wanderlust { last_wander: Cell::new(0.0) }),
+                Box::new(daemons::Wanderlust { last_wander: Cell::new(0.0) }),
                 Box::new(daemons::HungerTracker {}),
                 Box::new(daemons::SleepTracker {}),
                 Box::new(daemons::PoopTracker {}),
+                Box::new(daemons::PainTracker {}),
+                Box::new(daemons::EncounterTracker::new()),
                 Box::new(executive::Executive {}),
             ],
         }
@@ -49,6 +55,8 @@ impl Agent {
         let mut rng = rand::thread_rng();
         let mut daemon_urgency: Vec<f64> = Vec::with_capacity(self.daemons.len());
         let mut potential_daemons = Vec::with_capacity(self.daemons.len());
+
+        self.total_time.set(self.total_time.get() + 1.0);
 
         for daemon in &self.daemons {
             match daemon.step_simulation(self, world) {
@@ -70,7 +78,9 @@ impl Agent {
     }
 }
 
-struct Health {
+pub struct Health {
+    pub alive: bool,
+    awake: bool,
     hunger: f64,
     sleepiness: f64,
     poop: f64,
@@ -80,6 +90,8 @@ struct Health {
 impl Health {
     fn new() -> Health {
         Health {
+            alive: true,
+            awake: true,
             hunger: 0.0,
             pain: 0.0,
             poop: 0.0,
@@ -93,6 +105,8 @@ struct Mind {
     goals: HashMap<executive::Goal, f64>,
     current_goal: Option<(executive::Goal, Box<dyn executive::Strategy>)>,
     paused_goals: Vec<(executive::Goal, Box<dyn executive::Strategy>)>,
+    opinions_on_others: HashMap<AgentId, f64>,
+    opinions_on_places: HashMap<LocationId, f64>,
     agitation: f64,
     cheer: f64,
 }
@@ -103,6 +117,8 @@ impl Mind {
             goals: HashMap::with_capacity(100),
             current_goal: None,
             paused_goals: Vec::with_capacity(5),
+            opinions_on_others: HashMap::with_capacity(100),
+            opinions_on_places: HashMap::with_capacity(100),
             agitation: 0.0,
             cheer: 1.0,
         }

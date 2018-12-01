@@ -72,11 +72,29 @@ impl Strategy for FindFood {
     }
 }
 
+pub struct Explore {
+    iterations: u32,
+    payload: fn(agent: &Agent, world: &World) -> Vec<Box<dyn Event>>,
+}
+
+impl Strategy for Explore {
+    fn step_simulation(&mut self, agent: &Agent, world: &World) -> StrategyState {
+        self.iterations -= 1;
+        
+        if self.iterations > 0 {
+            StrategyState::Incomplete { events: vec![wander(agent, world)] }
+        } else {
+            StrategyState::Complete { events: (self.payload)(agent, world) }
+        }
+    }
+}
+
 #[derive(Hash, PartialEq, Copy, Clone)]
 pub enum Goal {
     FindFood,
     Rest,
     Shit,
+    Explore,
 }
 
 impl Eq for Goal {}
@@ -119,6 +137,14 @@ fn choose_goal(mind: &mut Mind) -> bool {
                                     ]}
                                 })));
                         }
+                        Goal::Explore => {
+                            mind.current_goal = Some((**k, Box::new(Explore { 
+                                iterations: 5,
+                                payload: |agent, _| {
+                                    vec![
+                                    ]}
+                                })));
+                        }
                     };
                     true
                 },
@@ -130,6 +156,10 @@ fn choose_goal(mind: &mut Mind) -> bool {
 pub struct Executive;
 impl daemons::Daemon for Executive {
     fn step_simulation(&self, agent: &Agent, _: &World) -> Option<f64> {
+        if !agent.health.borrow().awake {
+            return None;
+        }
+
         let mut rng = rand::thread_rng();
 
         let mut mind = agent.mind.borrow_mut();
@@ -149,7 +179,7 @@ impl daemons::Daemon for Executive {
             }
         } else {
             let max_goal = mind.goals.values().cloned().fold(-1./0. , f64::max);
-            if max_goal > mind.goals[&mind.current_goal.as_ref().unwrap().0] * 1.20 {
+            if max_goal > mind.goals.get(&mind.current_goal.as_ref().unwrap().0).unwrap_or(&0.0) * 1.20 {
                 choose_goal(&mut mind);
             }
             Some(1.0)

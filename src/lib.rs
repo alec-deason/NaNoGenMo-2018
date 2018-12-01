@@ -55,7 +55,7 @@ impl Event for DummyEvent {
 
 impl World {
     pub fn new(scale:i32) -> World {
-        let location_count:i32 = scale*20;
+        let location_count:i32 = scale*200;
         let agent_count:i32 = scale;
 
         let mut rng = rand::thread_rng();
@@ -80,7 +80,9 @@ impl World {
         self.time += 1.0;
         let mut events = Vec::with_capacity(self.agents.len());
         for a in &self.agents {
-            events.extend(a.step_simulation(self));
+            if a.health.borrow().alive {
+                events.extend(a.step_simulation(self));
+            }
         }
         for event in events {
             event.apply(self)
@@ -128,7 +130,15 @@ fn make_locations(location_count: i32, agent_count: i32) -> (Vec<Location>, Vec<
             location.items.insert(item_id, Item {
                 id: item_id,
                 name: "berry".to_string(),
-                food_value: 1.0,
+                food_value: 2.0,
+            });
+            item_id += 1;
+        }
+        for _ in 0..rng.gen_range(0, 15) {
+            location.items.insert(item_id, Item {
+                id: item_id,
+                name: "apple".to_string(),
+                food_value: 10.0,
             });
             item_id += 1;
         }
@@ -177,7 +187,7 @@ fn make_locations(location_count: i32, agent_count: i32) -> (Vec<Location>, Vec<
             new_location.items.insert(item_id, Item {
                 id: item_id,
                 name: "carrot".to_string(),
-                food_value: 10.0,
+                food_value: 20.0,
             });
             item_id += 1;
         }
